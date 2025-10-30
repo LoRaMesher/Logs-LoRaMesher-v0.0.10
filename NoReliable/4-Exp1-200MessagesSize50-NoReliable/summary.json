@@ -1,0 +1,41 @@
+{
+    "startedBuilding": "27/10/2025 09:58:24",
+    "builded": true,
+    "allPortsUploaded": true,
+    "uploadedPorts": [
+        "COM15",
+        "COM12",
+        "COM17",
+        "COM16",
+        "COM3",
+        "COM14",
+        "COM13",
+        "COM10",
+        "COM11",
+        "COM9"
+    ],
+    "deviceMonitorStarted": true,
+    "deviceMonitorStartedTime": "27/10/2025 10:01:01",
+    "allDevicesStartedSim": true,
+    "allDevicesStartedSimTime": "27/10/2025 10:01:43",
+    "allDevicesEndedSim": true,
+    "allDevicesEndedSimTime": "27/10/2025 18:17:29",
+    "allDevicesEndedLogs": false,
+    "allDevicesEndedLogsTime": "27/10/2025 18:17:38",
+    "deviceAddressAndCOM": {
+        "COM15": 38560,
+        "COM12": 22212,
+        "COM17": 30336,
+        "COM16": 59256,
+        "COM3": 56988,
+        "COM14": 35872,
+        "COM10": 22300,
+        "COM11": 22312,
+        "COM13": 27980,
+        "COM9": 20056
+    },
+    "error": false,
+    "error_time": "",
+    "error_message": "",
+    "comment": "Simulation stopped manually, simulation completed correctly"
+}

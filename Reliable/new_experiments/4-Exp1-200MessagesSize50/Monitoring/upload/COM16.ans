@@ -1,0 +1,142 @@
+Processing ttgo-t-beam-v1-2 (board: ttgo-t-beam; platform: espressif32@6.5.0; framework: arduino, espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-t-beam.html
+PLATFORM: Espressif 32 (6.5.0) > TTGO T-Beam
+HARDWARE: ESP32 240MHz, 1.25MB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20014.231204 (2.0.14) 
+ - framework-espidf @ 3.40406.240122 (4.4.6) 
+ - tool-cmake @ 3.16.4 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-idf @ 1.0.1 
+ - tool-mconf @ 1.4060000.20190628 (406.0.0) 
+ - tool-mkfatfs @ 2.0.1 
+ - tool-mklittlefs @ 1.203.210628 (2.3) 
+ - tool-mkspiffs @ 2.230.0 (2.30) 
+ - tool-ninja @ 1.9.0 
+ - toolchain-esp32ulp @ 1.23500.220830 (2.35.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+C:\Users\janm2\.platformio\platforms\espressif32\builder\frameworks\espidf.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warning! Arduino framework as an ESP-IDF component doesn't handle the `variant` field! The default `esp32` variant will be used.
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 49 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- TinyGPSPlus @ 1.1.0
+|-- AXP202X_Library @ 1.1.3
+|-- EspSoftwareSerial @ 8.2.0
+|-- LoRaMesher @ 0.0.10+sha.02e122a
+|-- Adafruit SSD1306 @ 2.5.15
+|-- Adafruit GFX Library @ 1.12.3
+|-- OneWire @ 2.3.8
+|-- ArduinoJson @ 6.21.4
+|-- ghostl @ 1.0.1
+|-- U8g2 @ 2.36.14+sha.b744b2b
+|-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
+|-- XPowersLib @ 0.3.1+sha.94e9f40
+|-- BluetoothSerial @ 2.0.0
+|-- WiFi @ 2.0.0
+Building in release mode
+Retrieving maximum program size .pio\build\ttgo-t-beam-v1-2\firmware.elf
+Checking size .pio\build\ttgo-t-beam-v1-2\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   3.1% (used 40296 bytes from 1310720 bytes)
+Flash: [====      ]  36.1% (used 1206133 bytes from 3342336 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: COM16
+Uploading .pio\build\ttgo-t-beam-v1-2\firmware.bin
+esptool.py v4.5.1
+Serial port COM16
+Connecting.........
+Chip is ESP32-D0WDQ6-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 34:98:7a:6b:e7:78
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00006fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Flash will be erased from 0x00010000 to 0x00138fff...
+Compressed 23424 bytes to 15104...
+Writing at 0x00001000... (100 %)
+Wrote 23424 bytes (15104 compressed) at 0x00001000 in 0.8 seconds (effective 247.2 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 136...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (136 compressed) at 0x00008000 in 0.1 seconds (effective 344.1 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 494.1 kbit/s)...
+Hash of data verified.
+Compressed 1212432 bytes to 701826...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001befb... (4 %)
+Writing at 0x000285f8... (6 %)
+Writing at 0x00032384... (9 %)
+Writing at 0x0003e035... (11 %)
+Writing at 0x000461f3... (13 %)
+Writing at 0x0004dabc... (16 %)
+Writing at 0x00057331... (18 %)
+Writing at 0x000609be... (20 %)
+Writing at 0x00068c33... (23 %)
+Writing at 0x00070ff0... (25 %)
+Writing at 0x000773a0... (27 %)
+Writing at 0x0007dc13... (30 %)
+Writing at 0x0008430c... (32 %)
+Writing at 0x0008a3f4... (34 %)
+Writing at 0x0009059a... (37 %)
+Writing at 0x00095faa... (39 %)
+Writing at 0x0009beb4... (41 %)
+Writing at 0x000a19c0... (44 %)
+Writing at 0x000a756a... (46 %)
+Writing at 0x000ad6aa... (48 %)
+Writing at 0x000b35c5... (51 %)
+Writing at 0x000b9451... (53 %)
+Writing at 0x000bf0f8... (55 %)
+Writing at 0x000c5be9... (58 %)
+Writing at 0x000cb811... (60 %)
+Writing at 0x000d1250... (62 %)
+Writing at 0x000d6beb... (65 %)
+Writing at 0x000dbec9... (67 %)
+Writing at 0x000e135a... (69 %)
+Writing at 0x000e6661... (72 %)
+Writing at 0x000ebd4c... (74 %)
+Writing at 0x000f14c2... (76 %)
+Writing at 0x000f7008... (79 %)
+Writing at 0x000fcc0a... (81 %)
+Writing at 0x00102871... (83 %)
+Writing at 0x00109f33... (86 %)
+Writing at 0x001104ab... (88 %)
+Writing at 0x0011ad01... (90 %)
+Writing at 0x001221aa... (93 %)
+Writing at 0x00127e69... (95 %)
+Writing at 0x0012d8ed... (97 %)
+Writing at 0x001334ff... (100 %)
+Wrote 1212432 bytes (701826 compressed) at 0x00010000 in 16.1 seconds (effective 601.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+========================= [SUCCESS] Took 83.22 seconds =========================
+
+Environment       Status    Duration
+----------------  --------  ------------
+ttgo-t-beam-v1-2  SUCCESS   00:01:23.224
+========================= 1 succeeded in 00:01:23.224 =========================

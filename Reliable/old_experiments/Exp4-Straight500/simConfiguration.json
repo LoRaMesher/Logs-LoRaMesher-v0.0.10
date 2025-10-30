@@ -1,0 +1,480 @@
+{
+    "SimulationTimeoutMinutes": "700",
+    "Simulator": {
+        "PACKET_COUNT": "20",
+        "PACKET_DELAY": "120000",
+        "PACKET_SIZE": "500",
+        "UPLOAD_PAYLOAD": "0",
+        "LOG_MESHER": "0",
+        "ONE_SENDER": "20068",
+        "SEND_RELIABLE": "1"
+    },
+    "LoRaMesher": {
+        "Band": "869.900F",
+        "Bandwidth": "125.0",
+        "SpreadingFactor": "7U",
+        "CodingRate": "7U",
+        "PreambleLength": "8U",
+        "Power": "6",
+        "DutyCycle": "100",
+        "MAXPACKETSIZE": "100",
+        "HELLO_PACKETS_DELAY": "120",
+        "DEFAULT_TIMEOUT": "HELLO_PACKETS_DELAY*5",
+        "MIN_TIMEOUT": "20",
+        "MAX_TIMEOUTS": "10",
+        "MAX_RESEND_PACKET": "3",
+        "MAX_TRY_BEFORE_SEND": "5"
+    },
+    "LoRaMesherAdjacencyGraph": [
+        {
+            "id": "20068",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "1"
+                },
+                {
+                    "to": "37428",
+                    "distance": "1"
+                },
+                {
+                    "to": "35872",
+                    "distance": "0"
+                },
+                {
+                    "to": "20056",
+                    "distance": "0"
+                },
+                {
+                    "to": "56988",
+                    "distance": "0"
+                },
+                {
+                    "to": "22312",
+                    "distance": "0"
+                },
+                {
+                    "to": "27980",
+                    "distance": "0"
+                },
+                {
+                    "to": "22212",
+                    "distance": "0"
+                },
+                {
+                    "to": "22656",
+                    "distance": "0"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "37428",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "1"
+                },
+                {
+                    "to": "37428",
+                    "distance": "1"
+                },
+                {
+                    "to": "35872",
+                    "distance": "1"
+                },
+                {
+                    "to": "20056",
+                    "distance": "0"
+                },
+                {
+                    "to": "56988",
+                    "distance": "0"
+                },
+                {
+                    "to": "22312",
+                    "distance": "0"
+                },
+                {
+                    "to": "27980",
+                    "distance": "0"
+                },
+                {
+                    "to": "22212",
+                    "distance": "0"
+                },
+                {
+                    "to": "22656",
+                    "distance": "0"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "35872",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "1"
+                },
+                {
+                    "to": "35872",
+                    "distance": "1"
+                },
+                {
+                    "to": "20056",
+                    "distance": "1"
+                },
+                {
+                    "to": "56988",
+                    "distance": "0"
+                },
+                {
+                    "to": "22312",
+                    "distance": "0"
+                },
+                {
+                    "to": "27980",
+                    "distance": "0"
+                },
+                {
+                    "to": "22212",
+                    "distance": "0"
+                },
+                {
+                    "to": "22656",
+                    "distance": "0"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "20056",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "0"
+                },
+                {
+                    "to": "35872",
+                    "distance": "1"
+                },
+                {
+                    "to": "20056",
+                    "distance": "1"
+                },
+                {
+                    "to": "56988",
+                    "distance": "1"
+                },
+                {
+                    "to": "22312",
+                    "distance": "0"
+                },
+                {
+                    "to": "27980",
+                    "distance": "0"
+                },
+                {
+                    "to": "22212",
+                    "distance": "0"
+                },
+                {
+                    "to": "22656",
+                    "distance": "0"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "56988",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "0"
+                },
+                {
+                    "to": "35872",
+                    "distance": "0"
+                },
+                {
+                    "to": "20056",
+                    "distance": "1"
+                },
+                {
+                    "to": "56988",
+                    "distance": "1"
+                },
+                {
+                    "to": "22312",
+                    "distance": "1"
+                },
+                {
+                    "to": "27980",
+                    "distance": "0"
+                },
+                {
+                    "to": "22212",
+                    "distance": "0"
+                },
+                {
+                    "to": "22656",
+                    "distance": "0"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "22312",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "0"
+                },
+                {
+                    "to": "35872",
+                    "distance": "0"
+                },
+                {
+                    "to": "20056",
+                    "distance": "0"
+                },
+                {
+                    "to": "56988",
+                    "distance": "1"
+                },
+                {
+                    "to": "22312",
+                    "distance": "1"
+                },
+                {
+                    "to": "27980",
+                    "distance": "1"
+                },
+                {
+                    "to": "22212",
+                    "distance": "0"
+                },
+                {
+                    "to": "22656",
+                    "distance": "0"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "27980",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "0"
+                },
+                {
+                    "to": "35872",
+                    "distance": "0"
+                },
+                {
+                    "to": "20056",
+                    "distance": "0"
+                },
+                {
+                    "to": "56988",
+                    "distance": "0"
+                },
+                {
+                    "to": "22312",
+                    "distance": "1"
+                },
+                {
+                    "to": "27980",
+                    "distance": "1"
+                },
+                {
+                    "to": "22212",
+                    "distance": "1"
+                },
+                {
+                    "to": "22656",
+                    "distance": "0"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "22212",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "0"
+                },
+                {
+                    "to": "35872",
+                    "distance": "0"
+                },
+                {
+                    "to": "20056",
+                    "distance": "0"
+                },
+                {
+                    "to": "56988",
+                    "distance": "0"
+                },
+                {
+                    "to": "22312",
+                    "distance": "0"
+                },
+                {
+                    "to": "27980",
+                    "distance": "1"
+                },
+                {
+                    "to": "22212",
+                    "distance": "1"
+                },
+                {
+                    "to": "22656",
+                    "distance": "1"
+                },
+                {
+                    "to": "22300",
+                    "distance": "0"
+                }
+            ]
+        },
+        {
+            "id": "22656",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "0"
+                },
+                {
+                    "to": "35872",
+                    "distance": "0"
+                },
+                {
+                    "to": "20056",
+                    "distance": "0"
+                },
+                {
+                    "to": "56988",
+                    "distance": "0"
+                },
+                {
+                    "to": "22312",
+                    "distance": "0"
+                },
+                {
+                    "to": "27980",
+                    "distance": "0"
+                },
+                {
+                    "to": "22212",
+                    "distance": "1"
+                },
+                {
+                    "to": "22656",
+                    "distance": "1"
+                },
+                {
+                    "to": "22300",
+                    "distance": "1"
+                }
+            ]
+        },
+        {
+            "id": "22300",
+            "neighbors": [
+                {
+                    "to": "20068",
+                    "distance": "0"
+                },
+                {
+                    "to": "37428",
+                    "distance": "0"
+                },
+                {
+                    "to": "35872",
+                    "distance": "0"
+                },
+                {
+                    "to": "20056",
+                    "distance": "0"
+                },
+                {
+                    "to": "56988",
+                    "distance": "0"
+                },
+                {
+                    "to": "22312",
+                    "distance": "0"
+                },
+                {
+                    "to": "27980",
+                    "distance": "0"
+                },
+                {
+                    "to": "22212",
+                    "distance": "0"
+                },
+                {
+                    "to": "22656",
+                    "distance": "1"
+                },
+                {
+                    "to": "22300",
+                    "distance": "1"
+                }
+            ]
+        }
+    ]
+}

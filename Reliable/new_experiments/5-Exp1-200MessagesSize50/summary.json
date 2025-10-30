@@ -1,0 +1,40 @@
+{
+    "startedBuilding": "22/10/2025 01:56:50",
+    "builded": true,
+    "allPortsUploaded": true,
+    "uploadedPorts": [
+        "COM9",
+        "COM11",
+        "COM17",
+        "COM13",
+        "COM10",
+        "COM12",
+        "COM16",
+        "COM14",
+        "COM15",
+        "COM3"
+    ],
+    "deviceMonitorStarted": true,
+    "deviceMonitorStartedTime": "22/10/2025 01:59:17",
+    "allDevicesStartedSim": true,
+    "allDevicesStartedSimTime": "22/10/2025 02:00:22",
+    "allDevicesEndedSim": true,
+    "allDevicesEndedSimTime": "22/10/2025 08:57:22",
+    "allDevicesEndedLogs": true,
+    "allDevicesEndedLogsTime": "22/10/2025 08:57:36",
+    "deviceAddressAndCOM": {
+        "COM9": 20056,
+        "COM11": 22312,
+        "COM17": 30336,
+        "COM13": 27980,
+        "COM12": 22212,
+        "COM14": 35872,
+        "COM15": 38560,
+        "COM16": 59256,
+        "COM10": 22300,
+        "COM3": 56988
+    },
+    "error": false,
+    "error_time": "",
+    "error_message": ""
+}

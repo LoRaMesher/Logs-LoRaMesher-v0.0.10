@@ -1,0 +1,56 @@
+[
+    {
+        "device": 59256,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:05"
+    },
+    {
+        "device": 22300,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:07"
+    },
+    {
+        "device": 27980,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:07"
+    },
+    {
+        "device": 22212,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:07"
+    },
+    {
+        "device": 22312,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:08"
+    },
+    {
+        "device": 30336,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:08"
+    },
+    {
+        "device": 35872,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:09",
+        "endedSim": true,
+        "endedDate": "16/10/2025 03:41:12",
+        "endedLogs": true,
+        "endedLogsDate": "16/10/2025 03:41:22"
+    },
+    {
+        "device": 38560,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:10"
+    },
+    {
+        "device": 56988,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:10"
+    },
+    {
+        "device": 20056,
+        "started": true,
+        "startedDate": "15/10/2025 20:30:10"
+    }
+]

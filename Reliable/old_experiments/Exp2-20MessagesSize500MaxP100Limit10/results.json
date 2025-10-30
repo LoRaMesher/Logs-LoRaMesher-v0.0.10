@@ -1,0 +1,15 @@
+{
+    "startedBuilding": "04/07/2023 12:26:19",
+    "builded": true,
+    "deviceMonitorStarted": true,
+    "deviceMonitorStartedTime": "04/07/2023 12:30:14",
+    "allDevicesStartedSim": true,
+    "allDevicesStartedSimTime": "04/07/2023 12:30:34",
+    "allDevicesEndedSim": true,
+    "allDevicesEndedSimTime": "04/07/2023 14:11:08",
+    "allDevicesEndedLogs": true,
+    "allDevicesEndedLogsTime": "04/07/2023 14:11:09",
+    "error": false,
+    "error_time": "",
+    "error_message": ""
+}

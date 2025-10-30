@@ -1,0 +1,3392 @@
+[
+    {
+        "topic": "to-server/20056",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 20056,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:04"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 20068,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:05"
+    },
+    {
+        "topic": "to-server/22212",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22212,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:06"
+    },
+    {
+        "topic": "to-server/27980",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 27980,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:06"
+    },
+    {
+        "topic": "to-server/25516",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 25516,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:07"
+    },
+    {
+        "topic": "to-server/22656",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22656,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:07"
+    },
+    {
+        "topic": "to-server/37428",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 37428,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:07"
+    },
+    {
+        "topic": "to-server/22300",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22300,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:07"
+    },
+    {
+        "topic": "to-server/22312",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22312,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:07"
+    },
+    {
+        "topic": "to-server/38560",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 38560,
+                "addrDst": 20056,
+                "messageSize": 1,
+                "simCommand": 4
+            }
+        },
+        "date": "2023-12-21 07:57:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:28:09"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 1,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:30:09"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 2,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:32:08"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 3,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:34:08"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 4,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:36:10"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 5,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:38:07"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 6,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:40:09"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 7,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:42:09"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 8,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:44:10"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 9,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:46:07"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 10,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:48:09"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 11,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:50:05"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 12,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:52:12"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 13,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:54:13"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 14,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:56:09"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 15,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 08:58:09"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 16,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:00:11"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 17,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:02:10"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 18,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:04:12"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 19,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:06:08"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 20,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:08:13"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 21,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:10:11"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 22,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:12:10"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 23,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:14:11"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 24,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:16:14"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 25,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:18:11"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 26,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:20:11"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 27,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:22:13"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 28,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:24:17"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 29,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:26:12"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 30,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:28:13"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 31,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:30:11"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 32,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:32:17"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 33,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:34:12"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 34,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:36:12"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 35,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:38:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 36,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:40:12"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 37,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:42:16"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 38,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:44:17"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 39,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:46:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 40,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:48:10"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 41,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:50:14"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 42,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:52:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 43,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:54:11"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 44,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:56:13"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 45,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 09:58:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 46,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:01:39"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 47,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:02:22"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 48,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:04:13"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 49,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:06:14"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 50,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:08:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 51,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:10:14"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 52,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:12:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 53,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:14:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 54,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:16:16"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 55,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:18:14"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 56,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:20:13"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 57,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:22:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 58,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:24:17"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 59,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:26:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 60,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:28:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 61,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:30:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 62,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:32:17"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 63,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:34:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 64,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:36:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 65,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:38:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 66,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:40:16"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 67,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:43:38"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 68,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:44:19"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 69,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:46:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 70,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:48:16"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 71,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:50:19"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 72,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:52:17"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 73,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:54:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 74,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:56:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 75,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 10:58:19"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 76,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:00:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 77,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:02:19"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 78,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:04:15"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 79,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:07:40"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 80,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:08:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 81,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:10:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 82,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:12:24"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 83,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:14:23"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 84,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:16:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 85,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:18:21"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 86,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:20:19"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 87,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:22:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 88,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:24:24"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 89,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:26:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 90,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:28:21"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 91,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:30:22"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 92,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:32:25"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 93,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:34:16"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 94,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:36:22"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 95,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:38:18"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 96,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:40:20"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 97,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:42:24"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 98,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:44:21"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 99,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:46:23"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 100,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:48:25"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 101,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:50:23"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 102,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:52:23"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 103,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:54:21"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 104,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:56:26"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 105,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 11:58:22"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 106,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:00:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 107,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:02:22"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 108,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:04:27"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 109,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:06:23"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 110,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:09:41"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 111,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:10:27"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 112,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:12:24"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 113,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:14:21"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 114,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:16:26"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 115,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:18:25"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 116,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:20:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 117,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:22:25"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 118,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:24:25"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 119,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:26:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 120,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:29:44"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 121,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:30:25"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 122,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:32:27"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 123,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:34:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 124,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:36:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 125,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:38:30"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 126,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:40:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 127,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:42:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 128,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:44:24"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 129,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:46:27"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 130,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:48:26"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 131,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:50:26"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 132,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:52:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 133,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:54:24"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 134,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:57:48"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 135,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 12:58:34"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 136,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:00:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 137,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:02:23"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 138,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:04:31"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 139,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:06:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 140,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:08:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 141,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:10:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 142,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:12:32"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 143,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:14:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 144,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:16:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 145,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:18:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 146,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:20:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 147,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:22:32"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 148,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:24:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 149,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:26:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 150,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:28:31"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 151,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:30:27"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 152,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:32:32"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 153,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:34:31"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 154,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:36:30"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 155,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:38:29"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 156,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:40:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 157,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:42:28"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 158,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:44:31"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 159,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:46:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 160,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:48:31"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 161,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:50:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 162,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:53:48"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 163,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:54:30"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 164,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:56:36"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 165,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 13:58:37"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 166,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:00:31"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 167,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:02:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 168,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:04:35"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 169,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:06:34"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 170,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:08:35"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 171,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:10:36"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 172,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:12:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 173,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:14:34"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 174,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:16:36"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 175,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:18:35"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 176,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:20:36"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 177,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:22:36"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 178,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:24:34"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 179,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:26:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 180,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:28:34"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 181,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:30:32"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 182,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:32:36"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 183,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:34:33"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 184,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:36:31"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 185,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:38:34"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 186,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:40:32"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 187,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:42:35"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 188,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:44:37"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 189,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:46:34"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 190,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:48:37"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 191,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:50:38"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 192,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:52:35"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 193,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:54:38"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 194,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:56:36"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 195,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 14:58:39"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 196,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 15:00:30"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 197,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 15:02:39"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 198,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 15:04:38"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 199,
+                "addrSrc": 20068,
+                "addrDst": 22656,
+                "messageSize": 55,
+                "simCommand": 3,
+                "packetSize": 50,
+                "payload": 49
+            }
+        },
+        "date": "2023-12-21 15:06:38"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 20068,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:08:21"
+    },
+    {
+        "topic": "to-server/20068",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 20068,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:08:21"
+    },
+    {
+        "topic": "to-server/22656",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22656,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:38"
+    },
+    {
+        "topic": "to-server/22656",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22656,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:38"
+    },
+    {
+        "topic": "to-server/20056",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 20056,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:51"
+    },
+    {
+        "topic": "to-server/20056",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 20056,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:51"
+    },
+    {
+        "topic": "to-server/27980",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 27980,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:53"
+    },
+    {
+        "topic": "to-server/27980",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 27980,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:53"
+    },
+    {
+        "topic": "to-server/25516",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 25516,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:53"
+    },
+    {
+        "topic": "to-server/22212",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22212,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:53"
+    },
+    {
+        "topic": "to-server/25516",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 25516,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:53"
+    },
+    {
+        "topic": "to-server/22212",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22212,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:53"
+    },
+    {
+        "topic": "to-server/22312",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22312,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:54"
+    },
+    {
+        "topic": "to-server/22300",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22300,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:54"
+    },
+    {
+        "topic": "to-server/22300",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22300,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:54"
+    },
+    {
+        "topic": "to-server/22312",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 22312,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:54"
+    },
+    {
+        "topic": "to-server/37428",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 37428,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:17:56"
+    },
+    {
+        "topic": "to-server/37428",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 37428,
+                "addrDst": 0,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:17:56"
+    },
+    {
+        "topic": "to-server/38560",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 38560,
+                "addrDst": 20068,
+                "messageSize": 1,
+                "simCommand": 5
+            }
+        },
+        "date": "2023-12-21 15:18:30"
+    },
+    {
+        "topic": "to-server/38560",
+        "payload": {
+            "data": {
+                "messageId": 0,
+                "addrSrc": 38560,
+                "addrDst": 20068,
+                "messageSize": 1,
+                "simCommand": 6
+            }
+        },
+        "date": "2023-12-21 15:18:39"
+    }
+]

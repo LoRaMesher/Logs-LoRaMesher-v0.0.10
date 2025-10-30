@@ -1,0 +1,506 @@
+********************************************************************************
+Obsolete PIO Core v6.1.7a4 is used (previous was 6.1.7)
+Please remove multiple PIO Cores from a system:
+https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
+********************************************************************************
+Processing ttgo-t-beam (board: ttgo-t-beam; platform: espressif32; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-t-beam.html
+PLATFORM: Espressif 32 (6.1.0) > TTGO T-Beam
+HARDWARE: ESP32 240MHz, 1.25MB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20007.0 (2.0.7) 
+ - tool-esptoolpy @ 1.40500.0 (4.5.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 45 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- WiFi @ 2.0.0
+|-- Wire @ 2.0.0
+|-- LoRaMesher @ 0.0.6+sha.1c2d219
+|-- Adafruit SSD1306 @ 2.5.7
+|-- Adafruit GFX Library @ 1.11.5
+|-- Adafruit BusIO @ 1.14.1
+|-- ArduinoJson @ 6.21.2
+|-- MQTT @ 2.5.1
+|-- OneWire @ 2.3.7
+|-- DallasTemperature @ 3.11.0
+|-- ArduinoBLE @ 1.3.4
+|-- ArduinoLog @ 1.1.1+sha.3f4fcf5
+|-- Preferences @ 2.0.0
+|-- WiFiClientSecure @ 2.0.0
+Building in release mode
+Compiling .pio\build\ttgo-t-beam\src\bluetooth\bluetoothCommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\bluetooth\bluetoothService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\commands\commandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\configuration\configService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\display.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\helpers\helper.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\led\led.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\led\ledCommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\loramesh\loraMeshCommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\loramesh\loraMeshService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\main.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\message\messageManager.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\mqtt\mqttCommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\mqtt\mqttService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\dht22\dht22.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\dht22\dht22CommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\temperature-onewire\temperature.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\temperature-onewire\temperatureCommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\simulator\sim.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\simulator\simCommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\wifi\wifiCommandService.cpp.o
+Compiling .pio\build\ttgo-t-beam\src\wifi\wifiServerService.cpp.o
+Building .pio\build\ttgo-t-beam\bootloader.bin
+esptool.py v4.5
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Generating partitions .pio\build\ttgo-t-beam\partitions.bin
+Compiling .pio\build\ttgo-t-beam\lib7cc\Vector\Vector\Vector.cpp.o
+Compiling .pio\build\ttgo-t-beam\libd40\SPI\SPI.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFi.cpp.o
+Archiving .pio\build\ttgo-t-beam\libd40\libSPI.a
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiAP.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiClient.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiGeneric.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiMulti.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiSTA.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiScan.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib7cc\libVector.a
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiServer.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiUdp.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c5\Wire\Wire.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib72e\ArduinoLog\ArduinoLog.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\Module.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\RFM9x\RFM95.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\RFM9x\RFM96.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\RFM9x\RFM97.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX1231\SX1231.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib1c3\libWiFi.a
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib1c5\libWire.a
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX126x\SX1261.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib72e\libArduinoLog.a
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1d1\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\LoraMesher.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\modules\LM_SX1262.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\modules\LM_SX1276.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\services\PacketQueueService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\services\PacketService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\services\RoleService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\services\RoutingTableService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\services\SimulatorService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\services\WifiService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib364\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib1d1\libRadioLib.a
+Compiling .pio\build\ttgo-t-beam\lib364\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib364\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib28f\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib28f\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib28f\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib28f\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\ttgo-t-beam\lib114\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\ttgo-t-beam\libcfa\MQTT\MQTTClient.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib9eb\libLoRaMesher.a
+Compiling .pio\build\ttgo-t-beam\libcfa\MQTT\lwmqtt\client.c.o
+Compiling .pio\build\ttgo-t-beam\libcfa\MQTT\lwmqtt\helpers.c.o
+Compiling .pio\build\ttgo-t-beam\libcfa\MQTT\lwmqtt\packet.c.o
+Compiling .pio\build\ttgo-t-beam\libcfa\MQTT\lwmqtt\string.c.o
+Compiling .pio\build\ttgo-t-beam\lib662\OneWire\OneWire.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib00a\DallasTemperature\DallasTemperature.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib364\libAdafruit BusIO.a
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\BLEAdvertisingData.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\BLECharacteristic.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\BLEDescriptor.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\BLEDevice.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\BLEService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\BLEStringCharacteristic.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib114\libAdafruit SSD1306.a
+Archiving .pio\build\ttgo-t-beam\lib28f\libAdafruit GFX Library.a
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\BLETypedCharacteristics.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\local\BLELocalAttribute.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\local\BLELocalCharacteristic.cpp.o
+Archiving .pio\build\ttgo-t-beam\libcfa\libMQTT.a
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\local\BLELocalDescriptor.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib662\libOneWire.a
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\local\BLELocalDevice.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib00a\libDallasTemperature.a
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\local\BLELocalService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\remote\BLERemoteAttribute.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\remote\BLERemoteCharacteristic.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\remote\BLERemoteDescriptor.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\remote\BLERemoteDevice.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\remote\BLERemoteService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\ATT.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\BLEUuid.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\GAP.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\GATT.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\HCI.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\HCICordioTransport.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\HCIUartTransport.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\HCIVirtualTransport.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\L2CAPSignaling.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\bitDescriptions.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\btct.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib337\ArduinoBLE\utility\keyDistribution.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib90d\Preferences\Preferences.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib67c\WiFiClientSecure\WiFiClientSecure.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib67c\WiFiClientSecure\esp_crt_bundle.c.o
+Compiling .pio\build\ttgo-t-beam\lib67c\WiFiClientSecure\ssl_client.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\IPv6Address.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib337\libArduinoBLE.a
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\StreamString.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib90d\libPreferences.a
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\USB.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib67c\libWiFiClientSecure.a
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\main.cpp.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\ttgo-t-beam\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\ttgo-t-beam\libFrameworkArduino.a
+Linking .pio\build\ttgo-t-beam\firmware.elf
+Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
+Checking size .pio\build\ttgo-t-beam\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   3.9% (used 51700 bytes from 1310720 bytes)
+Flash: [========  ]  81.5% (used 1068593 bytes from 1310720 bytes)
+Building .pio\build\ttgo-t-beam\firmware.bin
+esptool.py v4.5
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 83.80 seconds =========================
+
+Processing ttgo-lora32-v1 (board: ttgo-lora32-v1; platform: espressif32; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-lora32-v1.html
+PLATFORM: Espressif 32 (6.1.0) > TTGO LoRa32-OLED V1
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20007.0 (2.0.7) 
+ - tool-esptoolpy @ 1.40500.0 (4.5.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 45 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- WiFi @ 2.0.0
+|-- Wire @ 2.0.0
+|-- LoRaMesher @ 0.0.6+sha.07e6be0
+|-- Adafruit SSD1306 @ 2.5.7
+|-- Adafruit GFX Library @ 1.11.5
+|-- Adafruit BusIO @ 1.14.1
+|-- ArduinoJson @ 6.21.2
+|-- MQTT @ 2.5.1
+|-- OneWire @ 2.3.7
+|-- DallasTemperature @ 3.11.0
+|-- ArduinoBLE @ 1.3.4
+|-- ArduinoLog @ 1.1.1+sha.3f4fcf5
+|-- Preferences @ 2.0.0
+|-- WiFiClientSecure @ 2.0.0
+Building in release mode
+Compiling .pio\build\ttgo-lora32-v1\src\bluetooth\bluetoothCommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\bluetooth\bluetoothService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\commands\commandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\configuration\configService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\display.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\helpers\helper.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\led\led.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\led\ledCommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\loramesh\loraMeshCommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\loramesh\loraMeshService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\main.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\message\messageManager.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\mqtt\mqttCommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\mqtt\mqttService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\sensor\dht22\dht22.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\sensor\dht22\dht22CommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\sensor\temperature-onewire\temperature.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\sensor\temperature-onewire\temperatureCommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\simulator\sim.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\simulator\simCommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\wifi\wifiCommandService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\src\wifi\wifiServerService.cpp.o
+Building .pio\build\ttgo-lora32-v1\bootloader.bin
+esptool.py v4.5
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Generating partitions .pio\build\ttgo-lora32-v1\partitions.bin
+Compiling .pio\build\ttgo-lora32-v1\lib9ef\Vector\Vector\Vector.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libd40\SPI\SPI.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFi.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libd40\libSPI.a
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiAP.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiClient.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiGeneric.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiMulti.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiSTA.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib9ef\libVector.a
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiScan.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiServer.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c3\WiFi\WiFiUdp.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib1c5\Wire\Wire.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib582\ArduinoLog\ArduinoLog.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\Module.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\RFM9x\RFM95.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\RFM9x\RFM96.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\RFM9x\RFM97.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX1231\SX1231.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib1c3\libWiFi.a
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib1c5\libWire.a
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX126x\SX1261.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib582\libArduinoLog.a
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib9bb\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\LoraMesher.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\modules\LM_SX1262.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\modules\LM_SX1276.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\services\PacketQueueService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\services\PacketService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\services\RoleService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\services\RoutingTableService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\services\SimulatorService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib8aa\LoRaMesher\services\WifiService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\liba12\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib9bb\libRadioLib.a
+Compiling .pio\build\ttgo-lora32-v1\liba12\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\liba12\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib2af\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib2af\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib2af\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib2af\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib743\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libeb3\MQTT\MQTTClient.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libeb3\MQTT\lwmqtt\client.c.o
+Compiling .pio\build\ttgo-lora32-v1\libeb3\MQTT\lwmqtt\helpers.c.o
+Compiling .pio\build\ttgo-lora32-v1\libeb3\MQTT\lwmqtt\packet.c.o
+Archiving .pio\build\ttgo-lora32-v1\liba12\libAdafruit BusIO.a
+Archiving .pio\build\ttgo-lora32-v1\lib8aa\libLoRaMesher.a
+Compiling .pio\build\ttgo-lora32-v1\libeb3\MQTT\lwmqtt\string.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib327\OneWire\OneWire.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib4a3\DallasTemperature\DallasTemperature.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\BLEAdvertisingData.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\BLECharacteristic.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\BLEDescriptor.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\BLEDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\BLEService.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib743\libAdafruit SSD1306.a
+Archiving .pio\build\ttgo-lora32-v1\lib2af\libAdafruit GFX Library.a
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\BLEStringCharacteristic.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\BLETypedCharacteristics.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\local\BLELocalAttribute.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\local\BLELocalCharacteristic.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libeb3\libMQTT.a
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\local\BLELocalDescriptor.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib327\libOneWire.a
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\local\BLELocalDevice.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib4a3\libDallasTemperature.a
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\local\BLELocalService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\remote\BLERemoteAttribute.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\remote\BLERemoteCharacteristic.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\remote\BLERemoteDescriptor.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\remote\BLERemoteDevice.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\remote\BLERemoteService.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\ATT.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\BLEUuid.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\GAP.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\GATT.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\HCI.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\HCICordioTransport.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\HCIUartTransport.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\HCIVirtualTransport.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\L2CAPSignaling.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\bitDescriptions.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\btct.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\libbe5\ArduinoBLE\utility\keyDistribution.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib90d\Preferences\Preferences.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib67c\WiFiClientSecure\WiFiClientSecure.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\lib67c\WiFiClientSecure\esp_crt_bundle.c.o
+Compiling .pio\build\ttgo-lora32-v1\lib67c\WiFiClientSecure\ssl_client.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\IPAddress.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\libbe5\libArduinoBLE.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\StreamString.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib90d\libPreferences.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\USBCDC.cpp.o
+Archiving .pio\build\ttgo-lora32-v1\lib67c\libWiFiClientSecure.a
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\main.cpp.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\ttgo-lora32-v1\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\ttgo-lora32-v1\libFrameworkArduino.a
+Linking .pio\build\ttgo-lora32-v1\firmware.elf
+Retrieving maximum program size .pio\build\ttgo-lora32-v1\firmware.elf
+Checking size .pio\build\ttgo-lora32-v1\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  15.8% (used 51620 bytes from 327680 bytes)
+Flash: [========  ]  80.0% (used 1048973 bytes from 1310720 bytes)
+Building .pio\build\ttgo-lora32-v1\firmware.bin
+esptool.py v4.5
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 84.48 seconds =========================
+
+Environment     Status    Duration
+--------------  --------  ------------
+ttgo-t-beam     SUCCESS   00:01:23.802
+ttgo-lora32-v1  SUCCESS   00:01:24.485
+========================= 2 succeeded in 00:02:48.287 =========================

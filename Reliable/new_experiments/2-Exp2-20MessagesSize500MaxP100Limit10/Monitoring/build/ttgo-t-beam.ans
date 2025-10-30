@@ -1,0 +1,2413 @@
+Processing ttgo-t-beam (board: ttgo-t-beam; platform: espressif32@6.5.0; framework: arduino, espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-t-beam.html
+PLATFORM: Espressif 32 (6.5.0) > TTGO T-Beam
+HARDWARE: ESP32 240MHz, 1.25MB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20014.231204 (2.0.14) 
+ - framework-espidf @ 3.40406.240122 (4.4.6) 
+ - tool-cmake @ 3.16.4 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-idf @ 1.0.1 
+ - tool-mconf @ 1.4060000.20190628 (406.0.0) 
+ - tool-ninja @ 1.9.0 
+ - toolchain-esp32ulp @ 1.23500.220830 (2.35.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+C:\Users\janm2\.platformio\platforms\espressif32\builder\frameworks\espidf.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warning! Arduino framework as an ESP-IDF component doesn't handle the `variant` field! The default `esp32` variant will be used.
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 50 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- TinyGPSPlus @ 1.1.0
+|-- AXP202X_Library @ 1.1.3
+|-- EspSoftwareSerial @ 8.2.0
+|-- LoRaMesher @ 0.0.10+sha.02e122a
+|-- Adafruit SSD1306 @ 2.5.15
+|-- Adafruit GFX Library @ 1.12.3
+|-- OneWire @ 2.3.8
+|-- ArduinoJson @ 6.21.4
+|-- ghostl @ 1.0.1
+|-- U8g2 @ 2.36.14+sha.b744b2b
+|-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
+|-- SparkFun u-blox Arduino Library @ 1.8.11+sha.1e70755
+|-- XPowersLib @ 0.3.1+sha.94e9f40
+|-- BluetoothSerial @ 2.0.0
+|-- WiFi @ 2.0.0
+Building in release mode
+Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
+Checking size .pio\build\ttgo-t-beam\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   3.1% (used 40832 bytes from 1310720 bytes)
+Flash: [====      ]  36.2% (used 1210477 bytes from 3342336 bytes)
+========================= [SUCCESS] Took 22.67 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+ttgo-t-beam    SUCCESS   00:00:22.666
+========================= 1 succeeded in 00:00:22.666 =========================
+Please wait while upgrading PlatformIO...
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'C:\\Users\\janm2\\.platformio\\.cache\\http\\9046824e51580dd2f617f479e6ac916e3b99b988' 
+Please manually remove the file `C:\Users\janm2\.platformio\.cache\http\9046824e51580dd2f617f479e6ac916e3b99b988`
+PlatformIO has been successfully upgraded to 6.1.19a2!
+
+********************************************************************************
+If you like PlatformIO, please:
+- star it on GitHub > https://github.com/platformio/platformio-core
+- follow us on LinkedIn to stay up-to-date on the latest project news > https://www.linkedin.com/company/platformio/
+- try PlatformIO IDE for embedded development > https://platformio.org/platformio-ide
+********************************************************************************
+
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\.cmake\\api\\v1\\reply\\target-__idf___pio_env-74326bb2b25c2dc5e0ad.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\.cmake\api\v1\reply\target-__idf___pio_env-74326bb2b25c2dc5e0ad.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\.cmake\\api\\v1\\reply\\index-2025-10-15T16-35-57-0095.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\.cmake\api\v1\reply\index-2025-10-15T16-35-57-0095.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\.cmake\\api\\v1\\reply\\target-efuse_test_table-17c3c030429863cfc78e.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\.cmake\api\v1\reply\target-efuse_test_table-17c3c030429863cfc78e.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\.cmake\\api\\v1\\reply\\target-__idf_esp_rom-abec858ab564eecf2ae0.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\.cmake\api\v1\reply\target-__idf_esp_rom-abec858ab564eecf2ae0.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\.cmake\\api\\v1\\reply\\target-__idf_micro-ecc-622995009c5ed97df671.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\.cmake\api\v1\reply\target-__idf_micro-ecc-622995009c5ed97df671.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\.cmake\\api\\v1\\reply\\target-__idf_spi_flash-6bbf3f06c1157a716f76.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\.cmake\api\v1\reply\target-__idf_spi_flash-6bbf3f06c1157a716f76.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\.cmake\\api\\v1\\query' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\.cmake\api\v1\query`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\.cmake\\api' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\.cmake\api`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\CMakeFiles\\3.16.4\\CompilerIdC' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\CMakeFiles\3.16.4\CompilerIdC`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\CMakeFiles\\3.16.4\\CMakeCXXCompiler.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\CMakeFiles\3.16.4\CMakeCXXCompiler.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\config\\kconfig_menus.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\config\kconfig_menus.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\config\\sdkconfig.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\config\sdkconfig.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\bootloader_support\\CMakeFiles\\__idf_bootloader_support.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\bootloader_support\CMakeFiles\__idf_bootloader_support.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\esptool_py\\CMakeFiles' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\esptool_py\CMakeFiles`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\esptool_py\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\esptool_py\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\hal\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\hal\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\log\\CMakeFiles\\__idf_log.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\log\CMakeFiles\__idf_log.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\log\\CMakeFiles' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\log\CMakeFiles`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\newlib\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\newlib\cmake_install.cmake`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\xtensa\\CMakeFiles\\__idf_xtensa.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\xtensa\CMakeFiles\__idf_xtensa.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\xtensa\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\xtensa\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\esp_rom' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\esp_rom`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader\\esp-idf\\log' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader\esp-idf\log`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader-prefix\\tmp\\bootloader-cfgcmd.txt' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader-prefix\tmp\bootloader-cfgcmd.txt`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\bootloader-prefix\\tmp' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\bootloader-prefix\tmp`
+[WinError 5] Acceso denegado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\CMakeFiles\\3.16.4\\CompilerIdCXX\\a.out' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\CMakeFiles\3.16.4\CompilerIdCXX\a.out`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\CMakeFiles\\3.16.4\\CompilerIdCXX' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\CMakeFiles\3.16.4\CompilerIdCXX`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\CMakeFiles\\3.16.4\\CMakeSystem.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\CMakeFiles\3.16.4\CMakeSystem.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\CMakeFiles\\LoRaChat.elf.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\CMakeFiles\LoRaChat.elf.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\CMakeFiles\\TargetDirectories.txt' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\CMakeFiles\TargetDirectories.txt`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\config\\kconfig_menus.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\config\kconfig_menus.json`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\bootloader\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\bootloader\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\bt\\CMakeFiles\\__idf_bt.dir\\host\\bluedroid\\btc\\profile\\std\\hid' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\bt\CMakeFiles\__idf_bt.dir\host\bluedroid\btc\profile\std\hid`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\bt\\CMakeFiles\\__idf_bt.dir\\host\\bluedroid\\stack\\btm' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\bt\CMakeFiles\__idf_bt.dir\host\bluedroid\stack\btm`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\bt\\CMakeFiles\\__idf_bt.dir\\host\\bluedroid\\device' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\bt\CMakeFiles\__idf_bt.dir\host\bluedroid\device`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\cbor\\CMakeFiles' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\cbor\CMakeFiles`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\coap\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\coap\cmake_install.cmake`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\console\\CMakeFiles\\__idf_console.dir\\linenoise' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\console\CMakeFiles\__idf_console.dir\linenoise`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\cxx\\CMakeFiles\\__idf_cxx.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\cxx\CMakeFiles\__idf_cxx.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esptool_py\\flasher_args.json.in' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esptool_py\flasher_args.json.in`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_adc_cal\\CMakeFiles\\__idf_esp_adc_cal.dir\\esp32' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_adc_cal\CMakeFiles\__idf_esp_adc_cal.dir\esp32`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_eth\\CMakeFiles\\__idf_esp_eth.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_eth\CMakeFiles\__idf_esp_eth.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_gdbstub\\CMakeFiles\\__idf_esp_gdbstub.dir\\esp_common' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_gdbstub\CMakeFiles\__idf_esp_gdbstub.dir\esp_common`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_gdbstub\\CMakeFiles\\__idf_esp_gdbstub.dir\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_gdbstub\CMakeFiles\__idf_esp_gdbstub.dir\src`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_gdbstub\\CMakeFiles\\__idf_esp_gdbstub.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_gdbstub\CMakeFiles\__idf_esp_gdbstub.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_http_client\\CMakeFiles\\__idf_esp_http_client.dir\\lib' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_http_client\CMakeFiles\__idf_esp_http_client.dir\lib`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_http_server\\CMakeFiles\\__idf_esp_http_server.dir\\src\\util' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_http_server\CMakeFiles\__idf_esp_http_server.dir\src\util`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_http_server\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_http_server\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_lcd\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_lcd\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_local_ctrl\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_local_ctrl\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_ringbuf\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_ringbuf\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_system\\CMakeFiles\\__idf_esp_system.dir\\port' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_system\CMakeFiles\__idf_esp_system.dir\port`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_system\\port\\soc' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_system\port\soc`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_system\\port\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_system\port\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_wifi\\CMakeFiles' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_wifi\CMakeFiles`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\expat\\CMakeFiles\\__idf_expat.dir\\expat\\expat\\lib' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\expat\CMakeFiles\__idf_expat.dir\expat\expat\lib`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\expat\\CMakeFiles\\__idf_expat.dir\\expat\\expat' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\expat\CMakeFiles\__idf_expat.dir\expat\expat`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\fatfs\\CMakeFiles\\__idf_fatfs.dir\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\fatfs\CMakeFiles\__idf_fatfs.dir\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\BluetoothSerial\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\BluetoothSerial\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\ESPmDNS\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\ESPmDNS\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\FFat\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\FFat\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\HTTPUpdate\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\HTTPUpdate\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\I2S\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\I2S\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\RainMaker\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\RainMaker\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\SPI\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\SPI\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\WiFiClientSecure\\src' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\WiFiClientSecure\src`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\ArduinoOTA' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\ArduinoOTA`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\FFat' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\FFat`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\WebServer' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\WebServer`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\WiFiClientSecure' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\WiFiClientSecure`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\libraries\\WiFiProv' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\libraries\WiFiProv`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir\\cores' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir\cores`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\framework-arduinoespressif32\\CMakeFiles\\__idf_framework-arduinoespressif32.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\framework-arduinoespressif32\CMakeFiles\__idf_framework-arduinoespressif32.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\freemodbus\\CMakeFiles\\__idf_freemodbus.dir\\freemodbus\\serial_master\\modbus_controller' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\freemodbus\CMakeFiles\__idf_freemodbus.dir\freemodbus\serial_master\modbus_controller`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\freemodbus\\CMakeFiles\\__idf_freemodbus.dir\\freemodbus\\serial_slave\\modbus_controller' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\freemodbus\CMakeFiles\__idf_freemodbus.dir\freemodbus\serial_slave\modbus_controller`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\freemodbus\\CMakeFiles' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\freemodbus\CMakeFiles`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\json\\CMakeFiles\\__idf_json.dir\\cJSON' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\json\CMakeFiles\__idf_json.dir\cJSON`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\json\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\json\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_core\\salsa\\ref' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_core\salsa\ref`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_core\\ed25519' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_core\ed25519`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_scalarmult\\ed25519\\ref10' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_scalarmult\ed25519\ref10`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_scalarmult\\curve25519' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_scalarmult\curve25519`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_scalarmult\\ed25519' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_scalarmult\ed25519`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_stream\\salsa2012\\ref' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_stream\salsa2012\ref`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_stream\\salsa208\\ref' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_stream\salsa208\ref`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_stream\\chacha20' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_stream\chacha20`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_hash' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_hash`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_onetimeauth' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_onetimeauth`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_secretbox' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_secretbox`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_secretstream' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_secretstream`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_shorthash' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_shorthash`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\libsodium\\CMakeFiles\\__idf_libsodium.dir\\libsodium\\src\\libsodium\\crypto_sign' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\libsodium\CMakeFiles\__idf_libsodium.dir\libsodium\src\libsodium\crypto_sign`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\lwip\\CMakeFiles\\__idf_lwip.dir\\lwip\\src\\api' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\lwip\CMakeFiles\__idf_lwip.dir\lwip\src\api`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\lwip\\CMakeFiles\\__idf_lwip.dir\\lwip\\src\\netif' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\lwip\CMakeFiles\__idf_lwip.dir\lwip\src\netif`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\mbedtls\\CMakeFiles\\__idf_mbedtls.dir\\__' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\mbedtls\CMakeFiles\__idf_mbedtls.dir\__`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\mbedtls\\mbedtls\\library\\CMakeFiles\\mbedcrypto.dir\\__\\__\\port' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\mbedtls\mbedtls\library\CMakeFiles\mbedcrypto.dir\__\__\port`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\mbedtls\\mbedtls\\library' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\mbedtls\mbedtls\library`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\mqtt\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\mqtt\cmake_install.cmake`
+[WinError 3] El sistema no puede encontrar la ruta especificada: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\nghttp\\CMakeFiles\\__idf_nghttp.dir\\nghttp2\\lib' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\nghttp\CMakeFiles\__idf_nghttp.dir\nghttp2\lib`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\nvs_flash\\CMakeFiles\\__idf_nvs_flash.dir' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\nvs_flash\CMakeFiles\__idf_nvs_flash.dir`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\partition_table\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\partition_table\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\protocomm\\CMakeFiles\\__idf_protocomm.dir\\src\\simple_ble' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\protocomm\CMakeFiles\__idf_protocomm.dir\src\simple_ble`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\pthread\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\pthread\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\src\\CMakeFiles\\__idf_src.dir\\sensor\\types\\SoilSensor' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\src\CMakeFiles\__idf_src.dir\sensor\types\SoilSensor`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\src\\CMakeFiles\\__idf_src.dir\\led' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\src\CMakeFiles\__idf_src.dir\led`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\src\\CMakeFiles\\__idf_src.dir\\sensor' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\src\CMakeFiles\__idf_src.dir\sensor`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\src\\CMakeFiles\\__idf_src.dir\\time' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\src\CMakeFiles\__idf_src.dir\time`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\tcp_transport\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\tcp_transport\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\__pio_env\\CMakeFiles' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\__pio_env\CMakeFiles`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\esp_websocket_client' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\esp_websocket_client`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\idf_test' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\idf_test`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\mdns' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\mdns`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\sdmmc' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\sdmmc`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\tcpip_adapter' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\tcpip_adapter`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\vfs' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\vfs`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\wear_levelling' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\wear_levelling`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\esp-idf\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\esp-idf\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\cmake_install.cmake' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\cmake_install.cmake`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\kconfigs_projbuild.in' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\kconfigs_projbuild.in`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\ldgen_libraries_pio' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\ldgen_libraries_pio`
+[WinError 2] El sistema no puede encontrar el archivo especificado: 'D:\\Projects\\ESP32\\lorachat\\LoRaChat\\.pio\\build\\ttgo-lora32-v1\\project_description.json' 
+Please manually remove the file `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build\ttgo-lora32-v1\project_description.json`
+Can not remove temporary directory `D:\Projects\ESP32\lorachat\LoRaChat\.pio\build`. Please remove it manually to avoid build issues
+Processing ttgo-t-beam (board: ttgo-t-beam; platform: espressif32@6.5.0; framework: arduino, espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-t-beam.html
+PLATFORM: Espressif 32 (6.5.0) > TTGO T-Beam
+HARDWARE: ESP32 240MHz, 1.25MB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20014.231204 (2.0.14) 
+ - framework-espidf @ 3.40406.240122 (4.4.6) 
+ - tool-cmake @ 3.16.4 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-idf @ 1.0.1 
+ - tool-mconf @ 1.4060000.20190628 (406.0.0) 
+ - tool-ninja @ 1.9.0 
+ - toolchain-esp32ulp @ 1.23500.220830 (2.35.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+C:\Users\janm2\.platformio\platforms\espressif32\builder\frameworks\espidf.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warning! Arduino framework as an ESP-IDF component doesn't handle the `variant` field! The default `esp32` variant will be used.
+Reading CMake configuration...
+Generating assembly for certificate bundle...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 50 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- TinyGPSPlus @ 1.1.0
+|-- AXP202X_Library @ 1.1.3
+|-- EspSoftwareSerial @ 8.2.0
+|-- LoRaMesher @ 0.0.10+sha.02e122a
+|-- Adafruit SSD1306 @ 2.5.15
+|-- Adafruit GFX Library @ 1.12.3
+|-- OneWire @ 2.3.8
+|-- ArduinoJson @ 6.21.4
+|-- ghostl @ 1.0.1
+|-- U8g2 @ 2.36.14+sha.b744b2b
+|-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
+|-- SparkFun u-blox Arduino Library @ 1.8.11+sha.1e70755
+|-- XPowersLib @ 0.3.1+sha.94e9f40
+|-- BluetoothSerial @ 2.0.0
+|-- WiFi @ 2.0.0
+Building in release mode
+Compiling .pio\build\ttgo-t-beam\src\battery\battery.o
+Compiling .pio\build\ttgo-t-beam\src\bluetooth\bluetoothCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\bluetooth\bluetoothService.o
+Compiling .pio\build\ttgo-t-beam\src\commands\commandService.o
+Compiling .pio\build\ttgo-t-beam\src\devices\initDevices.o
+Compiling .pio\build\ttgo-t-beam\src\display.o
+Compiling .pio\build\ttgo-t-beam\src\display\displayCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\display\displayService.o
+Compiling .pio\build\ttgo-t-beam\src\gps\gpsCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\gps\gpsService.o
+Compiling .pio\build\ttgo-t-beam\src\helpers\helper.o
+Compiling .pio\build\ttgo-t-beam\src\led\led.o
+src/battery/battery.cpp:3:20: warning: 'BATTERY_TAG' defined but not used [-Wunused-variable]
+ static const char* BATTERY_TAG = "Battery";
+                    ^~~~~~~~~~~
+Compiling .pio\build\ttgo-t-beam\src\led\ledCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\loramesh\loraMeshCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\loramesh\loraMeshService.o
+Compiling .pio\build\ttgo-t-beam\src\main.o
+Compiling .pio\build\ttgo-t-beam\src\message\messageManager.o
+Compiling .pio\build\ttgo-t-beam\src\monitor\monCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\monitor\monService.o
+Compiling .pio\build\ttgo-t-beam\src\mqtt\mqttCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\mqtt\mqttService.o
+Compiling .pio\build\ttgo-t-beam\src\resetGPS.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\metadata\metadata.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\metadata\metadataCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\sensorCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\sensorService.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\types\PHSensor\PHSensor.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\types\SHT4x\SHT4xAirSensor.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\types\SoilSensor\SoilHTSensor.o
+Compiling .pio\build\ttgo-t-beam\src\sensor\types\WaterLevel\WaterLevelSensor.o
+Compiling .pio\build\ttgo-t-beam\src\simulator\sim.o
+Compiling .pio\build\ttgo-t-beam\src\simulator\simCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\testGPS.o
+Compiling .pio\build\ttgo-t-beam\src\testGPS\LoRaBoards.o
+Compiling .pio\build\ttgo-t-beam\src\time\timeHelper.o
+Compiling .pio\build\ttgo-t-beam\src\wifi\wifiCommandService.o
+Compiling .pio\build\ttgo-t-beam\src\wifi\wifiServerService.o
+Generating LD script .pio\build\ttgo-t-beam\memory.ld
+Compiling .pio\build\ttgo-t-beam\app_trace\app_trace.o
+Compiling .pio\build\ttgo-t-beam\app_trace\app_trace_util.o
+Compiling .pio\build\ttgo-t-beam\app_trace\host_file_io.o
+Compiling .pio\build\ttgo-t-beam\app_trace\gcov\gcov_rtio.o
+Compiling .pio\build\ttgo-t-beam\app_update\esp_ota_ops.o
+Compiling .pio\build\ttgo-t-beam\app_update\esp_app_desc.o
+Compiling .pio\build\ttgo-t-beam\asio\asio\asio\src\asio.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_common.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_common_loader.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_clock_init.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_flash.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\app_trace\libapp_trace.a
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_mem.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_random.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\app_update\libapp_update.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\app_trace\libapp_trace.a
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_random_esp32.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\app_update\libapp_update.a
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_utility.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\esp_image_format.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\flash_encrypt.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\secure_boot.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\flash_partitions.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\flash_qio_mode.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_flash_config_esp32.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\bootloader_efuse.o
+Compiling .pio\build\ttgo-t-beam\bootloader_support\src\idf\bootloader_sha.o
+Compiling .pio\build\ttgo-t-beam\bt\controller\esp32\bt.o
+Compiling .pio\build\ttgo-t-beam\bt\controller\esp32\hli_api.o
+Compiling .pio\build\ttgo-t-beam\bt\controller\esp32\hli_vectors.o
+Compiling .pio\build\ttgo-t-beam\bt\common\btc\core\btc_alarm.o
+Compiling .pio\build\ttgo-t-beam\bt\common\api\esp_blufi_api.o
+Compiling .pio\build\ttgo-t-beam\bt\common\btc\core\btc_manage.o
+Compiling .pio\build\ttgo-t-beam\bt\common\btc\core\btc_task.o
+Compiling .pio\build\ttgo-t-beam\bt\common\btc\profile\esp\blufi\blufi_prf.o
+Compiling .pio\build\ttgo-t-beam\bt\common\btc\profile\esp\blufi\blufi_protocol.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\alarm.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\bootloader_support\libbootloader_support.a
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\allocator.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\buffer.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\config.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\fixed_queue.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\bootloader_support\libbootloader_support.a
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\pkt_queue.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\fixed_pkt_queue.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\asio\libasio.a
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\future.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\hash_functions.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\hash_map.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\list.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\mutex.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\thread.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\asio\libasio.a
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\osi.o
+Compiling .pio\build\ttgo-t-beam\bt\common\osi\semaphore.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_a2dp_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_avrc_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_bt_device.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_bt_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_gap_ble_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_gap_bt_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_gatt_common_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_gattc_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_gatts_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_hidd_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_hidh_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_hf_ag_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_hf_client_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\api\esp_spp_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\ar\bta_ar.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_aact.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_cfg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_ci.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_sbc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\av\bta_av_ssm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_cfg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_ci.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_pm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_sco.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\dm\bta_dm_qos.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gatt_common.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gattc_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gattc_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gattc_cache.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gattc_ci.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gattc_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gattc_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gattc_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gatts_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gatts_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gatts_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gatts_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\gatt\bta_gatts_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hd\bta_hd_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hd\bta_hd_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hd\bta_hd_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hh\bta_hh_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hh\bta_hh_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hh\bta_hh_cfg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hh\bta_hh_le.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hh\bta_hh_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hh\bta_hh_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\jv\bta_jv_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\jv\bta_jv_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\jv\bta_jv_cfg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\jv\bta_jv_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_at.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_cfg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_cmd.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_rfc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_sco.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_ag\bta_ag_sdp.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_at.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_cmd.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_rfc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_sco.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\hf_client\bta_hf_client_sdp.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\sdp\bta_sdp.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\sdp\bta_sdp_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\sdp\bta_sdp_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\sdp\bta_sdp_cfg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\sys\bta_sys_conn.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\sys\bta_sys_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\bta\sys\utl.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_ble_storage.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_config.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_dev.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_dm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_profile_queue.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_sec.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_sm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_storage.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\core\btc_util.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\a2dp\bta_av_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\a2dp\btc_a2dp.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\a2dp\btc_a2dp_control.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\a2dp\btc_a2dp_sink.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\a2dp\btc_a2dp_source.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\a2dp\btc_av.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\avrc\btc_avrc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\avrc\bta_avrc_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\hf_ag\bta_ag_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\hf_ag\btc_hf_ag.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\hf_client\btc_hf_client.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\hf_client\bta_hf_client_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\hid\btc_hd.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\hid\btc_hh.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\hid\bta_hh_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\gap\btc_gap_ble.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\gap\btc_gap_bt.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\gap\bta_gap_bt_co.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\gatt\btc_gatt_common.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\gatt\btc_gatt_util.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\gatt\btc_gattc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\gatt\btc_gatts.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\btc\profile\std\spp\btc_spp.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\device\bdaddr.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\device\controller.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\device\interop.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\alloc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\bitalloc-sbc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\bitalloc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\bitstream-decode.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\decoder-oina.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\decoder-private.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\decoder-sbc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\dequant.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\framing-sbc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\framing.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\oi_codec_version.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\synthesis-8-generated.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\synthesis-dct8.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\decoder\srce\synthesis-sbc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_analysis.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_dct.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_dct_coeffs.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_enc_bit_alloc_mono.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_enc_bit_alloc_ste.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_enc_coeffs.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_encoder.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\encoder\srce\sbc_packing.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\external\sbc\plc\sbc_plc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\hci\hci_audio.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\hci\hci_hal_h4.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\hci\hci_layer.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\hci\hci_packet_factory.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\hci\hci_packet_parser.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\hci\packet_fragmenter.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\main\bte_init.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\main\bte_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\a2dp\a2d_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\a2dp\a2d_sbc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avct\avct_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avct\avct_ccb.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avct\avct_l2c.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avct\avct_lcb.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avct\avct_lcb_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_ad.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_ccb.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_ccb_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_l2c.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_msg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_scb.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avdt\avdt_scb_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_bld_ct.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_bld_tg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_opt.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_pars_ct.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_pars_tg.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_sdp.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\avrc\avrc_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\hid\hidd_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\hid\hidd_conn.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\hid\hidh_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\hid\hidh_conn.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_acl.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_addr.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_adv_filter.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_batchscan.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_bgconn.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_cont_energy.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_gap.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_5_gap.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_multi_adv.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_ble_privacy.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_dev.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_devctl.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_inq.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_pm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_sco.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btm\btm_sec.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btu\btu_hcif.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btu\btu_init.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\btu\btu_task.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gap\gap_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gap\gap_ble.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gap\gap_conn.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gap\gap_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\att_protocol.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_attr.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_auth.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_cl.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_db.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_sr.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_sr_hash.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\gatt\gatt_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\hcic\hciblecmds.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\hcic\hcicmds.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_ble.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_csm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_fcr.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_link.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_ucd.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2c_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\l2cap\l2cap_client.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\port_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\port_rfc.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\port_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\rfc_l2cap_if.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\rfc_mx_fsm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\rfc_port_fsm.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\rfc_port_if.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\rfc_ts_frames.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\rfcomm\rfc_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\sdp\sdp_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\sdp\sdp_db.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\sdp\sdp_discovery.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\sdp\sdp_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\sdp\sdp_server.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\sdp\sdp_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\aes.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\p_256_curvepara.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\p_256_ecc_pp.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\p_256_multprecision.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_act.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_api.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_br_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_cmac.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_keys.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_l2c.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_main.o
+Compiling .pio\build\ttgo-t-beam\bt\host\bluedroid\stack\smp\smp_utils.o
+Compiling .pio\build\ttgo-t-beam\bt\common\btc\profile\esp\blufi\bluedroid_host\esp_blufi.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborencoder_close_container_checked.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborencoder.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborerrorstrings.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborparser_dup_string.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborparser.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborpretty_stdio.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborpretty.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cbortojson.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\cborvalidation.o
+Compiling .pio\build\ttgo-t-beam\cbor\tinycbor\src\open_memstream.o
+Compiling .pio\build\ttgo-t-beam\cmock\CMock\src\cmock.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\address.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\async.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\block.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_asn1.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\bt\libbt.a
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_cache.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_debug.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_event.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_hashkey.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_io.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\cbor\libcbor.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\bt\libbt.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\cmock\libcmock.a
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_mbedtls.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_notls.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\cbor\libcbor.a
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_prng.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_session.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_tcp.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\cmock\libcmock.a
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\coap_time.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\encode.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\mem.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\net.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\option.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\pdu.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\resource.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\str.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\subscribe.o
+Compiling .pio\build\ttgo-t-beam\coap\libcoap\src\uri.o
+Compiling .pio\build\ttgo-t-beam\console\commands.o
+Compiling .pio\build\ttgo-t-beam\console\esp_console_repl.o
+Compiling .pio\build\ttgo-t-beam\console\split_argv.o
+Compiling .pio\build\ttgo-t-beam\console\linenoise\linenoise.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_cmd.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_date.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_dbl.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_dstr.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_end.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_file.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_hashtable.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_int.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_lit.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_rem.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_rex.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\coap\libcoap.a
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_str.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\arg_utils.o
+Compiling .pio\build\ttgo-t-beam\console\argtable3\argtable3.o
+Compiling .pio\build\ttgo-t-beam\cxx\cxx_exception_stubs.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\coap\libcoap.a
+Compiling .pio\build\ttgo-t-beam\cxx\cxx_guards.o
+Compiling .pio\build\ttgo-t-beam\driver\gpio.o
+Compiling .pio\build\ttgo-t-beam\driver\i2c.o
+Compiling .pio\build\ttgo-t-beam\driver\i2s.o
+Compiling .pio\build\ttgo-t-beam\driver\ledc.o
+Compiling .pio\build\ttgo-t-beam\driver\pcnt.o
+Compiling .pio\build\ttgo-t-beam\driver\periph_ctrl.o
+Compiling .pio\build\ttgo-t-beam\driver\rmt.o
+Compiling .pio\build\ttgo-t-beam\driver\rtc_io.o
+Compiling .pio\build\ttgo-t-beam\driver\rtc_module.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\console\libconsole.a
+Compiling .pio\build\ttgo-t-beam\driver\sdspi_crc.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\cxx\libcxx.a
+Compiling .pio\build\ttgo-t-beam\driver\sdspi_host.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\console\libconsole.a
+Compiling .pio\build\ttgo-t-beam\driver\sdspi_transaction.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\cxx\libcxx.a
+Compiling .pio\build\ttgo-t-beam\driver\sigmadelta.o
+Compiling .pio\build\ttgo-t-beam\driver\spi_common.o
+Compiling .pio\build\ttgo-t-beam\driver\spi_master.o
+Compiling .pio\build\ttgo-t-beam\driver\spi_slave.o
+Compiling .pio\build\ttgo-t-beam\driver\spi_bus_lock.o
+Compiling .pio\build\ttgo-t-beam\driver\timer.o
+Compiling .pio\build\ttgo-t-beam\driver\twai.o
+Compiling .pio\build\ttgo-t-beam\driver\uart.o
+Compiling .pio\build\ttgo-t-beam\driver\adc_common.o
+Compiling .pio\build\ttgo-t-beam\driver\dac_common.o
+Compiling .pio\build\ttgo-t-beam\driver\mcpwm.o
+Compiling .pio\build\ttgo-t-beam\driver\sdio_slave.o
+Compiling .pio\build\ttgo-t-beam\driver\sdmmc_host.o
+Compiling .pio\build\ttgo-t-beam\driver\sdmmc_transaction.o
+Compiling .pio\build\ttgo-t-beam\driver\touch_sensor_common.o
+Compiling .pio\build\ttgo-t-beam\driver\esp32\touch_sensor.o
+Compiling .pio\build\ttgo-t-beam\driver\adc.o
+Compiling .pio\build\ttgo-t-beam\driver\esp32\adc.o
+Compiling .pio\build\ttgo-t-beam\driver\adc_deprecated.o
+Compiling .pio\build\ttgo-t-beam\driver\esp32\dac.o
+Compiling .pio\build\ttgo-t-beam\efuse\esp32\esp_efuse_table.o
+Compiling .pio\build\ttgo-t-beam\efuse\esp32\esp_efuse_fields.o
+Compiling .pio\build\ttgo-t-beam\efuse\esp32\esp_efuse_utility.o
+Compiling .pio\build\ttgo-t-beam\efuse\src\esp_efuse_api.o
+Compiling .pio\build\ttgo-t-beam\efuse\src\esp_efuse_fields.o
+Compiling .pio\build\ttgo-t-beam\efuse\src\esp_efuse_utility.o
+Compiling .pio\build\ttgo-t-beam\efuse\src\esp_efuse_api_key_esp32.o
+Compiling .pio\build\ttgo-t-beam\esp-tls\esp_tls.o
+Compiling .pio\build\ttgo-t-beam\esp-tls\esp-tls-crypto\esp_tls_crypto.o
+Compiling .pio\build\ttgo-t-beam\esp-tls\esp_tls_error_capture.o
+Compiling .pio\build\ttgo-t-beam\esp-tls\esp_tls_mbedtls.o
+Compiling .pio\build\ttgo-t-beam\esp_adc_cal\esp_adc_cal_common.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\driver\libdriver.a
+Compiling .pio\build\ttgo-t-beam\esp_adc_cal\esp32\esp_adc_cal.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\driver\libdriver.a
+Compiling .pio\build\ttgo-t-beam\esp_common\src\esp_err_to_name.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\efuse\libefuse.a
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth.o
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_phy.o
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_netif_glue.o
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_mac_esp.o
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_phy_dp83848.o
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_phy_ip101.o
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_phy_ksz80xx.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\efuse\libefuse.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_adc_cal\libesp_adc_cal.a
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_phy_lan87xx.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp-tls\libesp-tls.a
+Compiling .pio\build\ttgo-t-beam\esp_eth\src\esp_eth_phy_rtl8201.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_adc_cal\libesp_adc_cal.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp-tls\libesp-tls.a
+Compiling .pio\build\ttgo-t-beam\esp_event\default_event_loop.o
+Compiling .pio\build\ttgo-t-beam\esp_event\esp_event.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_common\libesp_common.a
+Compiling .pio\build\ttgo-t-beam\esp_event\esp_event_private.o
+Compiling .pio\build\ttgo-t-beam\esp_event\event_loop_legacy.o
+Compiling .pio\build\ttgo-t-beam\esp_event\event_send.o
+Compiling .pio\build\ttgo-t-beam\esp_gdbstub\src\gdbstub.o
+Compiling .pio\build\ttgo-t-beam\esp_gdbstub\src\packet.o
+Compiling .pio\build\ttgo-t-beam\esp_gdbstub\xtensa\gdbstub_xtensa.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_common\libesp_common.a
+Compiling .pio\build\ttgo-t-beam\esp_gdbstub\xtensa\gdbstub-entry.o
+Compiling .pio\build\ttgo-t-beam\esp_gdbstub\esp_common\gdbstub_common.o
+Compiling .pio\build\ttgo-t-beam\esp_hid\src\esp_hidd.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_eth\libesp_eth.a
+Compiling .pio\build\ttgo-t-beam\esp_hid\src\esp_hidh.o
+Compiling .pio\build\ttgo-t-beam\esp_hid\src\esp_hid_common.o
+Compiling .pio\build\ttgo-t-beam\esp_hid\src\ble_hidd.o
+Compiling .pio\build\ttgo-t-beam\esp_hid\src\ble_hidh.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_eth\libesp_eth.a
+Compiling .pio\build\ttgo-t-beam\esp_hid\src\bt_hidh.o
+Compiling .pio\build\ttgo-t-beam\esp_hid\src\bt_hidd.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_event\libesp_event.a
+Compiling .pio\build\ttgo-t-beam\esp_http_client\esp_http_client.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_gdbstub\libesp_gdbstub.a
+Compiling .pio\build\ttgo-t-beam\esp_http_client\lib\http_auth.o
+Compiling .pio\build\ttgo-t-beam\esp_http_client\lib\http_header.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_event\libesp_event.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_gdbstub\libesp_gdbstub.a
+Compiling .pio\build\ttgo-t-beam\esp_http_client\lib\http_utils.o
+Compiling .pio\build\ttgo-t-beam\esp_http_server\src\httpd_main.o
+Compiling .pio\build\ttgo-t-beam\esp_http_server\src\httpd_parse.o
+Compiling .pio\build\ttgo-t-beam\esp_http_server\src\httpd_sess.o
+Compiling .pio\build\ttgo-t-beam\esp_http_server\src\httpd_txrx.o
+Compiling .pio\build\ttgo-t-beam\esp_http_server\src\httpd_uri.o
+Compiling .pio\build\ttgo-t-beam\esp_http_server\src\httpd_ws.o
+Compiling .pio\build\ttgo-t-beam\esp_http_server\src\util\ctrl_sock.o
+Compiling .pio\build\ttgo-t-beam\esp_https_ota\src\esp_https_ota.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_hid\libesp_hid.a
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\compare_set.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\cpu_util.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_hid\libesp_hid.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_http_client\libesp_http_client.a
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\esp_async_memcpy.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\esp_clk.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\clk_ctrl_os.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\hw_random.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\intr_alloc.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_http_client\libesp_http_client.a
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\mac_addr.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\revision.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_http_server\libesp_http_server.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_https_ota\libesp_https_ota.a
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\sleep_modes.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\sleep_gpio.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\sleep_mac_bb.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_http_server\libesp_http_server.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_https_ota\libesp_https_ota.a
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\regi2c_ctrl.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\sleep_wake_stub.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\rtc_clk.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\rtc_clk_init.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\rtc_init.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\rtc_pm.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\rtc_sleep.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\rtc_time.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\rtc_wdt.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\chip_info.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\cache_sram_mmu.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\dport_access.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\esp_himem.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\spiram.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\spiram_psram.o
+Compiling .pio\build\ttgo-t-beam\esp_hw_support\port\esp32\sar_periph_ctrl.o
+Compiling .pio\build\ttgo-t-beam\esp_ipc\src\esp_ipc.o
+Compiling .pio\build\ttgo-t-beam\esp_ipc\src\esp_ipc_isr\esp_ipc_isr.o
+Compiling .pio\build\ttgo-t-beam\esp_ipc\src\esp_ipc_isr\esp_ipc_isr_handler.o
+Compiling .pio\build\ttgo-t-beam\esp_ipc\src\esp_ipc_isr\esp_ipc_isr_routines.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_common.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_io.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_io_i2c.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_io_i2s.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_io_spi.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_io_i80.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_nt35510.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_ssd1306.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_hw_support\libesp_hw_support.a
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_st7789.o
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_panel_ops.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_ipc\libesp_ipc.a
+Compiling .pio\build\ttgo-t-beam\esp_lcd\src\esp_lcd_rgb_panel.o
+Compiling .pio\build\ttgo-t-beam\esp_local_ctrl\src\esp_local_ctrl.o
+Compiling .pio\build\ttgo-t-beam\esp_local_ctrl\src\esp_local_ctrl_handler.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_hw_support\libesp_hw_support.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_ipc\libesp_ipc.a
+Compiling .pio\build\ttgo-t-beam\esp_local_ctrl\proto-c\esp_local_ctrl.pb-c.o
+Compiling .pio\build\ttgo-t-beam\esp_local_ctrl\src\esp_local_ctrl_transport_ble.o
+Compiling .pio\build\ttgo-t-beam\esp_netif\esp_netif_handlers.o
+Compiling .pio\build\ttgo-t-beam\esp_netif\esp_netif_objects.o
+Compiling .pio\build\ttgo-t-beam\esp_netif\esp_netif_defaults.o
+Compiling .pio\build\ttgo-t-beam\esp_netif\lwip\esp_netif_lwip.o
+Compiling .pio\build\ttgo-t-beam\esp_netif\lwip\esp_netif_lwip_defaults.o
+Compiling .pio\build\ttgo-t-beam\esp_netif\lwip\esp_netif_sta_list.o
+Compiling .pio\build\ttgo-t-beam\esp_netif\loopback\esp_netif_loopback.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_lcd\libesp_lcd.a
+Compiling .pio\build\ttgo-t-beam\esp_phy\src\phy_override.o
+Compiling .pio\build\ttgo-t-beam\esp_phy\src\lib_printf.o
+Compiling .pio\build\ttgo-t-beam\esp_phy\src\phy_init.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_lcd\libesp_lcd.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_local_ctrl\libesp_local_ctrl.a
+Compiling .pio\build\ttgo-t-beam\esp_pm\pm_locks.o
+Compiling .pio\build\ttgo-t-beam\esp_pm\pm_trace.o
+Compiling .pio\build\ttgo-t-beam\esp_pm\pm_impl.o
+Compiling .pio\build\ttgo-t-beam\esp_ringbuf\ringbuf.o
+Compiling .pio\build\ttgo-t-beam\esp_rom\patches\esp_rom_crc.o
+Compiling .pio\build\ttgo-t-beam\esp_rom\patches\esp_rom_sys.o
+Compiling .pio\build\ttgo-t-beam\esp_rom\patches\esp_rom_uart.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_local_ctrl\libesp_local_ctrl.a
+Compiling .pio\build\ttgo-t-beam\esp_rom\patches\esp_rom_tjpgd.o
+Compiling .pio\build\ttgo-t-beam\esp_rom\patches\esp_rom_efuse.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_netif\libesp_netif.a
+Compiling .pio\build\ttgo-t-beam\esp_rom\patches\esp_rom_longjmp.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_netif\libesp_netif.a
+Compiling .pio\build\ttgo-t-beam\esp_serial_slave_link\essl.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_phy\libesp_phy.a
+Compiling .pio\build\ttgo-t-beam\esp_serial_slave_link\essl_sdio.o
+Compiling .pio\build\ttgo-t-beam\esp_serial_slave_link\essl_spi.o
+Compiling .pio\build\ttgo-t-beam\esp_system\esp_err.o
+Compiling .pio\build\ttgo-t-beam\esp_system\crosscore_int.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_pm\libesp_pm.a
+Compiling .pio\build\ttgo-t-beam\esp_system\freertos_hooks.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_phy\libesp_phy.a
+Compiling .pio\build\ttgo-t-beam\esp_system\int_wdt.o
+Compiling .pio\build\ttgo-t-beam\esp_system\panic.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_ringbuf\libesp_ringbuf.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_rom\libesp_rom.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_pm\libesp_pm.a
+Compiling .pio\build\ttgo-t-beam\esp_system\esp_system.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_ringbuf\libesp_ringbuf.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_rom\libesp_rom.a
+Compiling .pio\build\ttgo-t-beam\esp_system\startup.o
+Compiling .pio\build\ttgo-t-beam\esp_system\system_time.o
+Compiling .pio\build\ttgo-t-beam\esp_system\stack_check.o
+Compiling .pio\build\ttgo-t-beam\esp_system\task_wdt.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_serial_slave_link\libesp_serial_slave_link.a
+Compiling .pio\build\ttgo-t-beam\esp_system\ubsan.o
+Compiling .pio\build\ttgo-t-beam\esp_system\xt_wdt.o
+Compiling .pio\build\ttgo-t-beam\esp_system\debug_stubs.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\cpu_start.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\panic_handler.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_serial_slave_link\libesp_serial_slave_link.a
+Compiling .pio\build\ttgo-t-beam\esp_system\port\brownout.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\soc\esp32\highint_hdl.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\soc\esp32\clk.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\soc\esp32\reset_reason.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\soc\esp32\system_internal.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\soc\esp32\cache_err_int.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\panic_arch.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\panic_handler_asm.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\expression_with_stack.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\expression_with_stack_asm.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\debug_helpers.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\debug_helpers_asm.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\debug_stubs.o
+Compiling .pio\build\ttgo-t-beam\esp_system\port\arch\xtensa\trax.o
+Compiling .pio\build\ttgo-t-beam\esp_timer\src\esp_timer.o
+Compiling .pio\build\ttgo-t-beam\esp_timer\src\ets_timer_legacy.o
+Compiling .pio\build\ttgo-t-beam\esp_timer\src\system_time.o
+Compiling .pio\build\ttgo-t-beam\esp_timer\src\esp_timer_impl_lac.o
+Compiling .pio\build\ttgo-t-beam\esp_websocket_client\esp_websocket_client.o
+Compiling .pio\build\ttgo-t-beam\esp_wifi\src\coexist.o
+Compiling .pio\build\ttgo-t-beam\esp_wifi\src\mesh_event.o
+Compiling .pio\build\ttgo-t-beam\esp_wifi\src\smartconfig.o
+Compiling .pio\build\ttgo-t-beam\esp_wifi\src\smartconfig_ack.o
+Compiling .pio\build\ttgo-t-beam\esp_wifi\src\wifi_init.o
+Compiling .pio\build\ttgo-t-beam\esp_wifi\src\wifi_default.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_system\libesp_system.a
+Compiling .pio\build\ttgo-t-beam\esp_wifi\src\wifi_netif.o
+Compiling .pio\build\ttgo-t-beam\esp_wifi\esp32\esp_adapter.o
+Compiling .pio\build\ttgo-t-beam\espcoredump\src\core_dump_common.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_timer\libesp_timer.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_system\libesp_system.a
+Compiling .pio\build\ttgo-t-beam\espcoredump\src\core_dump_checksum.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_timer\libesp_timer.a
+Compiling .pio\build\ttgo-t-beam\espcoredump\src\core_dump_flash.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_websocket_client\libesp_websocket_client.a
+Compiling .pio\build\ttgo-t-beam\espcoredump\src\core_dump_uart.o
+Compiling .pio\build\ttgo-t-beam\espcoredump\src\core_dump_elf.o
+Compiling .pio\build\ttgo-t-beam\espcoredump\src\core_dump_binary.o
+Compiling .pio\build\ttgo-t-beam\espcoredump\src\port\xtensa\core_dump_port.o
+Compiling .pio\build\ttgo-t-beam\expat\expat\expat\lib\xmlparse.o
+Compiling .pio\build\ttgo-t-beam\expat\expat\expat\lib\xmlrole.o
+Compiling .pio\build\ttgo-t-beam\expat\expat\expat\lib\xmltok.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_websocket_client\libesp_websocket_client.a
+Compiling .pio\build\ttgo-t-beam\expat\expat\expat\lib\xmltok_impl.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\esp_wifi\libesp_wifi.a
+Compiling .pio\build\ttgo-t-beam\expat\expat\expat\lib\xmltok_ns.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\esp_wifi\libesp_wifi.a
+Compiling .pio\build\ttgo-t-beam\fatfs\diskio\diskio.o
+Compiling .pio\build\ttgo-t-beam\fatfs\diskio\diskio_rawflash.o
+Compiling .pio\build\ttgo-t-beam\fatfs\diskio\diskio_sdmmc.o
+Compiling .pio\build\ttgo-t-beam\fatfs\diskio\diskio_wl.o
+Compiling .pio\build\ttgo-t-beam\fatfs\src\ff.o
+Compiling .pio\build\ttgo-t-beam\fatfs\port\freertos\ffsystem.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\espcoredump\libespcoredump.a
+Compiling .pio\build\ttgo-t-beam\fatfs\src\ffunicode.o
+Compiling .pio\build\ttgo-t-beam\fatfs\vfs\vfs_fat.o
+Compiling .pio\build\ttgo-t-beam\fatfs\vfs\vfs_fat_sdmmc.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\espcoredump\libespcoredump.a
+Compiling .pio\build\ttgo-t-beam\fatfs\vfs\vfs_fat_spiflash.o
+Compiling .pio\build\ttgo-t-beam\base64.o
+Compiling .pio\build\ttgo-t-beam\cbuf.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-adc.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-bt.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-cpu.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\expat\libexpat.a
+Compiling .pio\build\ttgo-t-beam\esp32-hal-dac.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-gpio.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-i2c.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-i2c-slave.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\expat\libexpat.a
+Compiling .pio\build\ttgo-t-beam\esp32-hal-ledc.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\fatfs\libfatfs.a
+Compiling .pio\build\ttgo-t-beam\esp32-hal-matrix.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-misc.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-psram.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-rgb-led.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\fatfs\libfatfs.a
+Compiling .pio\build\ttgo-t-beam\esp32-hal-sigmadelta.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-spi.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-time.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-timer.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-tinyusb.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-touch.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-uart.o
+Compiling .pio\build\ttgo-t-beam\esp32-hal-rmt.o
+Compiling .pio\build\ttgo-t-beam\Esp.o
+Compiling .pio\build\ttgo-t-beam\FunctionalInterrupt.o
+Compiling .pio\build\ttgo-t-beam\HardwareSerial.o
+Compiling .pio\build\ttgo-t-beam\IPAddress.o
+Compiling .pio\build\ttgo-t-beam\IPv6Address.o
+Compiling .pio\build\ttgo-t-beam\cdecode.o
+Compiling .pio\build\ttgo-t-beam\cencode.o
+Compiling .pio\build\ttgo-t-beam\main.o
+Compiling .pio\build\ttgo-t-beam\MD5Builder.o
+Compiling .pio\build\ttgo-t-beam\Print.o
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.c: In function 'uartSetPins':
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.c:153:9: warning: 'return' with no value, in function returning non-void
+         return;
+         ^~~~~~
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.c:149:6: note: declared here
+ bool uartSetPins(uint8_t uart_num, int8_t rxPin, int8_t txPin, int8_t ctsPin, int8_t rtsPin)
+      ^~~~~~~~~~~
+Compiling .pio\build\ttgo-t-beam\stdlib_noniso.o
+Compiling .pio\build\ttgo-t-beam\Stream.o
+Compiling .pio\build\ttgo-t-beam\StreamString.o
+Compiling .pio\build\ttgo-t-beam\Tone.o
+Compiling .pio\build\ttgo-t-beam\HWCDC.o
+Compiling .pio\build\ttgo-t-beam\USB.o
+Compiling .pio\build\ttgo-t-beam\USBCDC.o
+Compiling .pio\build\ttgo-t-beam\USBMSC.o
+Compiling .pio\build\ttgo-t-beam\FirmwareMSC.o
+Compiling .pio\build\ttgo-t-beam\firmware_msc_fat.o
+Compiling .pio\build\ttgo-t-beam\wiring_pulse.o
+Compiling .pio\build\ttgo-t-beam\wiring_shift.o
+Compiling .pio\build\ttgo-t-beam\WMath.o
+Compiling .pio\build\ttgo-t-beam\WString.o
+Compiling .pio\build\ttgo-t-beam\ArduinoOTA.o
+Compiling .pio\build\ttgo-t-beam\AsyncUDP.o
+Compiling .pio\build\ttgo-t-beam\BluetoothSerial.o
+Compiling .pio\build\ttgo-t-beam\BTAddress.o
+Compiling .pio\build\ttgo-t-beam\BTAdvertisedDeviceSet.o
+Compiling .pio\build\ttgo-t-beam\BTScanResultsSet.o
+Compiling .pio\build\ttgo-t-beam\DNSServer.o
+Compiling .pio\build\ttgo-t-beam\EEPROM.o
+Compiling .pio\build\ttgo-t-beam\ESPmDNS.o
+Compiling .pio\build\ttgo-t-beam\ETH.o
+Compiling .pio\build\ttgo-t-beam\FFat.o
+Compiling .pio\build\ttgo-t-beam\FS.o
+Compiling .pio\build\ttgo-t-beam\vfs_api.o
+Compiling .pio\build\ttgo-t-beam\HTTPClient.o
+Compiling .pio\build\ttgo-t-beam\HTTPUpdate.o
+Compiling .pio\build\ttgo-t-beam\LittleFS.o
+Compiling .pio\build\ttgo-t-beam\Insights.o
+Compiling .pio\build\ttgo-t-beam\I2S.o
+Compiling .pio\build\ttgo-t-beam\NetBIOS.o
+Compiling .pio\build\ttgo-t-beam\Preferences.o
+Compiling .pio\build\ttgo-t-beam\RMaker.o
+Compiling .pio\build\ttgo-t-beam\RMakerNode.o
+Compiling .pio\build\ttgo-t-beam\RMakerParam.o
+Compiling .pio\build\ttgo-t-beam\RMakerDevice.o
+Compiling .pio\build\ttgo-t-beam\RMakerType.o
+Compiling .pio\build\ttgo-t-beam\RMakerQR.o
+Compiling .pio\build\ttgo-t-beam\RMakerUtils.o
+Compiling .pio\build\ttgo-t-beam\AppInsights.o
+Compiling .pio\build\ttgo-t-beam\SD_MMC.o
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp: In member function 'int I2SClass::_installDriver()':
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:148:3: warning: missing initializer for member 'esp_i2s::i2s_driver_config_t::tx_desc_auto_clear' [-Wmissing-field-initializers]
+   };
+   ^
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:148:3: warning: missing initializer for member 'esp_i2s::i2s_driver_config_t::fixed_mclk' [-Wmissing-field-initializers]
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:148:3: warning: missing initializer for member 'esp_i2s::i2s_driver_config_t::mclk_multiple' [-Wmissing-field-initializers]
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:148:3: warning: missing initializer for member 'esp_i2s::i2s_driver_config_t::bits_per_chan' [-Wmissing-field-initializers]
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp: In member function 'int I2SClass::_applyPinSetting()':
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:324:5: warning: missing initializer for member 'esp_i2s::i2s_pin_config_t::mck_io_num' [-Wmissing-field-initializers]
+     };
+     ^
+In file included from C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h:80,
+                 from C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h:36,
+                 from C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:19:
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp: In member function 'int I2SClass::_gpioToAdcUnit(gpio_num_t, esp_i2s::adc_unit_t*)':
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h:143:38: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ #define log_w(format, ...) log_printf(ARDUHAL_LOG_FORMAT(W, format), ##__VA_ARGS__)
+                            ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:1068:7: note: in expansion of macro 'log_w'
+       log_w("GPIO 0 for ADC should not be used for dev boards due to external auto program circuits.");
+       ^~~~~
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src/I2S.cpp:1069:5: note: here
+     case GPIO_NUM_4:
+     ^~~~
+Compiling .pio\build\ttgo-t-beam\SD.o
+Compiling .pio\build\ttgo-t-beam\sd_diskio.o
+Compiling .pio\build\ttgo-t-beam\sd_diskio_crc.o
+Compiling .pio\build\ttgo-t-beam\SimpleBLE.o
+Compiling .pio\build\ttgo-t-beam\SPIFFS.o
+Compiling .pio\build\ttgo-t-beam\SPI.o
+Compiling .pio\build\ttgo-t-beam\Ticker.o
+Compiling .pio\build\ttgo-t-beam\Updater.o
+Compiling .pio\build\ttgo-t-beam\HttpsOTAUpdate.o
+Compiling .pio\build\ttgo-t-beam\USBHID.o
+Compiling .pio\build\ttgo-t-beam\USBHIDMouse.o
+Compiling .pio\build\ttgo-t-beam\USBHIDKeyboard.o
+Compiling .pio\build\ttgo-t-beam\USBHIDGamepad.o
+Compiling .pio\build\ttgo-t-beam\USBHIDConsumerControl.o
+Compiling .pio\build\ttgo-t-beam\USBHIDSystemControl.o
+Compiling .pio\build\ttgo-t-beam\USBHIDVendor.o
+Compiling .pio\build\ttgo-t-beam\USBVendor.o
+Compiling .pio\build\ttgo-t-beam\WebServer.o
+Compiling .pio\build\ttgo-t-beam\Parsing.o
+Compiling .pio\build\ttgo-t-beam\mimetable.o
+Compiling .pio\build\ttgo-t-beam\ssl_client.o
+Compiling .pio\build\ttgo-t-beam\esp_crt_bundle.o
+Compiling .pio\build\ttgo-t-beam\WiFiClientSecure.o
+Compiling .pio\build\ttgo-t-beam\WiFiAP.o
+Compiling .pio\build\ttgo-t-beam\WiFiClient.o
+Compiling .pio\build\ttgo-t-beam\WiFi.o
+Compiling .pio\build\ttgo-t-beam\WiFiGeneric.o
+Compiling .pio\build\ttgo-t-beam\WiFiMulti.o
+Compiling .pio\build\ttgo-t-beam\WiFiScan.o
+Compiling .pio\build\ttgo-t-beam\WiFiServer.o
+Compiling .pio\build\ttgo-t-beam\WiFiSTA.o
+C:/Users/janm2/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/ssl_client.cpp:24:4: warning: #warning "Please call `idf.py menuconfig` then go to Component config -> mbedTLS -> TLS Key Exchange Methods -> Enable pre-shared-key ciphersuites and then check `Enable PSK based cyphersuite modes`. Save and Quit." [-Wcpp]
+ #  warning "Please call `idf.py menuconfig` then go to Component config -> mbedTLS -> TLS Key Exchange Methods -> Enable pre-shared-key ciphersuites and then check `Enable PSK based cyphersuite modes`. Save and Quit."
+    ^~~~~~~
+Compiling .pio\build\ttgo-t-beam\WiFiUdp.o
+Compiling .pio\build\ttgo-t-beam\WiFiProv.o
+Compiling .pio\build\ttgo-t-beam\Wire.o
+Compiling .pio\build\ttgo-t-beam\BLE2902.o
+Compiling .pio\build\ttgo-t-beam\BLE2904.o
+Compiling .pio\build\ttgo-t-beam\BLEAddress.o
+Compiling .pio\build\ttgo-t-beam\BLEAdvertisedDevice.o
+Compiling .pio\build\ttgo-t-beam\BLEAdvertising.o
+Compiling .pio\build\ttgo-t-beam\BLEBeacon.o
+Compiling .pio\build\ttgo-t-beam\BLECharacteristic.o
+Compiling .pio\build\ttgo-t-beam\BLECharacteristicMap.o
+Compiling .pio\build\ttgo-t-beam\BLEClient.o
+Compiling .pio\build\ttgo-t-beam\BLEDescriptor.o
+Compiling .pio\build\ttgo-t-beam\BLEDescriptorMap.o
+Compiling .pio\build\ttgo-t-beam\BLEDevice.o
+Compiling .pio\build\ttgo-t-beam\BLEEddystoneTLM.o
+Compiling .pio\build\ttgo-t-beam\BLEEddystoneURL.o
+Compiling .pio\build\ttgo-t-beam\BLEExceptions.o
+Compiling .pio\build\ttgo-t-beam\BLEHIDDevice.o
+Compiling .pio\build\ttgo-t-beam\BLERemoteCharacteristic.o
+Compiling .pio\build\ttgo-t-beam\BLERemoteDescriptor.o
+Compiling .pio\build\ttgo-t-beam\BLERemoteService.o
+Compiling .pio\build\ttgo-t-beam\BLEScan.o
+Compiling .pio\build\ttgo-t-beam\BLESecurity.o
+Compiling .pio\build\ttgo-t-beam\BLEServer.o
+Compiling .pio\build\ttgo-t-beam\BLEService.o
+Compiling .pio\build\ttgo-t-beam\BLEServiceMap.o
+Compiling .pio\build\ttgo-t-beam\BLEUtils.o
+Compiling .pio\build\ttgo-t-beam\BLEUUID.o
+Compiling .pio\build\ttgo-t-beam\BLEValue.o
+Compiling .pio\build\ttgo-t-beam\FreeRTOS.o
+Compiling .pio\build\ttgo-t-beam\GeneralUtils.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\common\esp_modbus_master.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\common\esp_modbus_slave.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\mb.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\mb_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\ascii\mbascii.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\ascii\mbascii_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\rtu\mbrtu_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\rtu\mbrtu.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\rtu\mbcrc.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\tcp\mbtcp.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\tcp\mbtcp_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\port.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\portevent.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\portevent_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\portother.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\portother_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\portserial.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\portserial_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\porttimer.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\port\porttimer_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfunccoils.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfunccoils_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncdiag.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncdisc.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\framework-arduinoespressif32\libframework-arduinoespressif32.a
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncdisc_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncholding.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncholding_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncinput.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncinput_m.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbfuncother.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\modbus\functions\mbutils.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\serial_slave\modbus_controller\mbc_serial_slave.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\serial_master\modbus_controller\mbc_serial_master.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\tcp_slave\port\port_tcp_slave.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\framework-arduinoespressif32\libframework-arduinoespressif32.a
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\tcp_slave\modbus_controller\mbc_tcp_slave.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\tcp_master\modbus_controller\mbc_tcp_master.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\tcp_master\port\port_tcp_master.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\common\esp_modbus_master_tcp.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\common\esp_modbus_slave_tcp.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\common\esp_modbus_master_serial.o
+Compiling .pio\build\ttgo-t-beam\freemodbus\freemodbus\common\esp_modbus_slave_serial.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\xtensa\port.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\xtensa\portasm.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\xtensa\xtensa_context.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\xtensa\xtensa_init.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\xtensa\xtensa_overlay_os_hook.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\xtensa\xtensa_vector_defaults.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\xtensa\xtensa_vectors.o
+Compiling .pio\build\ttgo-t-beam\freertos\esp_additions\task_snapshot.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\port_common.o
+Compiling .pio\build\ttgo-t-beam\freertos\port\port_systick.o
+Compiling .pio\build\ttgo-t-beam\freertos\croutine.o
+Compiling .pio\build\ttgo-t-beam\freertos\event_groups.o
+Compiling .pio\build\ttgo-t-beam\freertos\list.o
+Compiling .pio\build\ttgo-t-beam\freertos\queue.o
+Compiling .pio\build\ttgo-t-beam\freertos\tasks.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\freemodbus\libfreemodbus.a
+Compiling .pio\build\ttgo-t-beam\freertos\timers.o
+Compiling .pio\build\ttgo-t-beam\freertos\stream_buffer.o
+Compiling .pio\build\ttgo-t-beam\freertos\FreeRTOS-openocd.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\freemodbus\libfreemodbus.a
+Compiling .pio\build\ttgo-t-beam\freertos\freertos_v8_compat.o
+Compiling .pio\build\ttgo-t-beam\hal\wdt_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\mpu_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\cpu_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\efuse_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\esp32\efuse_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\rmt_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\rtc_io_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\spi_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\spi_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\spi_slave_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\spi_slave_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\i2s_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\sigmadelta_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\timer_hal.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\freertos\libfreertos.a
+Compiling .pio\build\ttgo-t-beam\hal\ledc_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\ledc_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\i2c_hal.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\freertos\libfreertos.a
+Compiling .pio\build\ttgo-t-beam\hal\i2c_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\gpio_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\uart_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\uart_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\spi_flash_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\spi_flash_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\spi_flash_encrypt_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\soc_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\interrupt_controller_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\sha_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\aes_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\twai_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\twai_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\hal\adc_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\dac_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\mcpwm_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\pcnt_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\sdio_slave_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\touch_sensor_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\esp32\adc_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\esp32\brownout_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\esp32\interrupt_descriptor_table.o
+Compiling .pio\build\ttgo-t-beam\hal\esp32\touch_sensor_hal.o
+Compiling .pio\build\ttgo-t-beam\hal\esp32\gpio_hal_workaround.o
+Compiling .pio\build\ttgo-t-beam\hal\emac_hal.o
+Compiling .pio\build\ttgo-t-beam\heap\heap_caps.o
+Compiling .pio\build\ttgo-t-beam\heap\heap_caps_init.o
+Compiling .pio\build\ttgo-t-beam\heap\multi_heap.o
+Compiling .pio\build\ttgo-t-beam\heap\heap_tlsf.o
+Compiling .pio\build\ttgo-t-beam\heap\multi_heap_poisoning.o
+Compiling .pio\build\ttgo-t-beam\heap\heap_task_info.o
+Compiling .pio\build\ttgo-t-beam\heap\heap_trace_standalone.o
+Compiling .pio\build\ttgo-t-beam\heap\port\memory_layout_utils.o
+Compiling .pio\build\ttgo-t-beam\heap\port\esp32\memory_layout.o
+Compiling .pio\build\ttgo-t-beam\jsmn\src\jsmn.o
+Compiling .pio\build\ttgo-t-beam\json\cJSON\cJSON.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\hal\libhal.a
+Compiling .pio\build\ttgo-t-beam\json\cJSON\cJSON_Utils.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\hal\libhal.a
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_aead\chacha20poly1305\sodium\aead_chacha20poly1305.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_aead\xchacha20poly1305\sodium\aead_xchacha20poly1305.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\jsmn\libjsmn.a
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_auth\crypto_auth.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_auth\hmacsha256\auth_hmacsha256.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_auth\hmacsha512\auth_hmacsha512.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_auth\hmacsha512256\auth_hmacsha512256.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\jsmn\libjsmn.a
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_box\crypto_box.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_box\crypto_box_easy.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\heap\libheap.a
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_box\crypto_box_seal.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_box\curve25519xchacha20poly1305\box_curve25519xchacha20poly1305.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_box\curve25519xchacha20poly1305\box_seal_curve25519xchacha20poly1305.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\json\libjson.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\heap\libheap.a
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_box\curve25519xsalsa20poly1305\box_curve25519xsalsa20poly1305.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_core\ed25519\core_ed25519.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_core\ed25519\core_ristretto255.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\json\libjson.a
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_core\ed25519\ref10\ed25519_ref10.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_core\hchacha20\core_hchacha20.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_core\hsalsa20\core_hsalsa20.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_core\hsalsa20\ref2\core_hsalsa20_ref2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_core\salsa\ref\core_salsa_ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_generichash\blake2b\generichash_blake2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_generichash\blake2b\ref\blake2b-compress-avx2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_generichash\blake2b\ref\blake2b-compress-ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_generichash\blake2b\ref\blake2b-compress-ssse3.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_generichash\blake2b\ref\blake2b-ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_generichash\blake2b\ref\generichash_blake2b.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_generichash\crypto_generichash.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_hash\crypto_hash.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_hash\sha256\cp\hash_sha256_cp.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_hash\sha256\hash_sha256.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_hash\sha512\cp\hash_sha512_cp.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_hash\sha512\hash_sha512.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_kdf\blake2b\kdf_blake2b.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_kdf\crypto_kdf.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_kx\crypto_kx.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_onetimeauth\crypto_onetimeauth.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_onetimeauth\poly1305\donna\poly1305_donna.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_onetimeauth\poly1305\onetimeauth_poly1305.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\argon2-core.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\argon2-encoding.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\argon2-fill-block-avx2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\argon2-fill-block-avx512f.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\argon2-fill-block-ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\argon2-fill-block-ssse3.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\argon2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\blake2b-long.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\pwhash_argon2i.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\argon2\pwhash_argon2id.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\crypto_pwhash.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\scryptsalsa208sha256\crypto_scrypt-common.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\scryptsalsa208sha256\nosse\pwhash_scryptsalsa208sha256_nosse.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\scryptsalsa208sha256\pbkdf2-sha256.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\scryptsalsa208sha256\pwhash_scryptsalsa208sha256.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_pwhash\scryptsalsa208sha256\scrypt_platform.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\crypto_scalarmult.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\ref10\x25519_ref10.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\consts.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\curve25519_sandy2x.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\fe51_invert.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\fe51_mul.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\fe51_nsquare.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\fe51_pack.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\fe_frombytes_sandy2x.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\ladder.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\sandy2x\sandy2x.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\curve25519\scalarmult_curve25519.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\ed25519\ref10\scalarmult_ed25519_ref10.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_scalarmult\ristretto255\ref10\scalarmult_ristretto255_ref10.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_secretbox\crypto_secretbox.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_secretbox\crypto_secretbox_easy.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_secretbox\xchacha20poly1305\secretbox_xchacha20poly1305.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_secretbox\xsalsa20poly1305\secretbox_xsalsa20poly1305.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_secretstream\xchacha20poly1305\secretstream_xchacha20poly1305.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_shorthash\crypto_shorthash.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_shorthash\siphash24\ref\shorthash_siphash24_ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_shorthash\siphash24\ref\shorthash_siphashx24_ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_shorthash\siphash24\shorthash_siphash24.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_shorthash\siphash24\shorthash_siphashx24.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_sign\crypto_sign.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_sign\ed25519\ref10\keypair.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_sign\ed25519\ref10\obsolete.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_sign\ed25519\ref10\open.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_sign\ed25519\ref10\sign.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_sign\ed25519\sign_ed25519.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\chacha20\dolbeau\chacha20_dolbeau-avx2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\chacha20\dolbeau\chacha20_dolbeau-ssse3.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\chacha20\ref\chacha20_ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\chacha20\stream_chacha20.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\crypto_stream.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa20\ref\salsa20_ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa20\stream_salsa20.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa20\xmm6\salsa20_xmm6-asm.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa20\xmm6\salsa20_xmm6.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa20\xmm6int\salsa20_xmm6int-avx2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa20\xmm6int\salsa20_xmm6int-sse2.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa2012\ref\stream_salsa2012_ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa2012\stream_salsa2012.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa208\ref\stream_salsa208_ref.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\salsa208\stream_salsa208.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\xchacha20\stream_xchacha20.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_stream\xsalsa20\stream_xsalsa20.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\crypto_verify\sodium\verify.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\randombytes\randombytes.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\sodium\codecs.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\sodium\core.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\sodium\runtime.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\sodium\utils.o
+Compiling .pio\build\ttgo-t-beam\libsodium\libsodium\src\libsodium\sodium\version.o
+Compiling .pio\build\ttgo-t-beam\libsodium\port\randombytes_esp32.o
+Compiling .pio\build\ttgo-t-beam\log\log.o
+Compiling .pio\build\ttgo-t-beam\log\log_buffers.o
+Compiling .pio\build\ttgo-t-beam\log\log_freertos.o
+Compiling .pio\build\ttgo-t-beam\lwip\apps\sntp\sntp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\api_lib.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\api_msg.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\err.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\if_api.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\netbuf.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\netdb.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\netifapi.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\sockets.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\libsodium\liblibsodium.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\libsodium\liblibsodium.a
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\api\tcpip.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\log\liblog.a
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\apps\sntp\sntp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\apps\netbiosns\netbiosns.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\def.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\dns.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\inet_chksum.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\init.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\log\liblog.a
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ip.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\mem.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\memp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\netif.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\pbuf.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\raw.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\stats.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\sys.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\tcp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\tcp_in.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\tcp_out.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\timeouts.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\udp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\autoip.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\dhcp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\etharp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\icmp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\igmp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\ip4.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\ip4_napt.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\ip4_addr.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv4\ip4_frag.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\dhcp6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\ethip6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\icmp6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\inet6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\ip6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\ip6_addr.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\ip6_frag.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\mld6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\core\ipv6\nd6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ethernet.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\lowpan6.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\slipif.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\auth.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\ccp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\chap-md5.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\chap-new.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\chap_ms.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\demand.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\eap.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\ecp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\eui64.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\fsm.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\ipcp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\ipv6cp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\lcp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\magic.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\mppe.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\multilink.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\ppp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\pppapi.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\pppcrypt.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\pppoe.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\pppol2tp.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\pppos.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\upap.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\utils.o
+Compiling .pio\build\ttgo-t-beam\lwip\lwip\src\netif\ppp\vj.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\hooks\tcp_isn_default.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\hooks\lwip_default_hooks.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\debug\lwip_debug.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\freertos\sys_arch.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\netif\dhcp_state.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\netif\wlanif.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\netif\ethernetif.o
+Compiling .pio\build\ttgo-t-beam\lwip\port\esp32\vfs_lwip.o
+Compiling .pio\build\ttgo-t-beam\lwip\apps\ping\esp_ping.o
+Compiling .pio\build\ttgo-t-beam\lwip\apps\ping\ping.o
+Compiling .pio\build\ttgo-t-beam\lwip\apps\ping\ping_sock.o
+Compiling .pio\build\ttgo-t-beam\lwip\apps\dhcpserver\dhcpserver.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\esp_crt_bundle\esp_crt_bundle.o
+Compiling .pio\build\ttgo-t-beam\.pio\build\ttgo-t-beam\x509_crt_bundle.o
+Compiling .pio\build\ttgo-t-beam\mdns\mdns.o
+Compiling .pio\build\ttgo-t-beam\mdns\mdns_networking_lwip.o
+Compiling .pio\build\ttgo-t-beam\mdns\mdns_console.o
+Compiling .pio\build\ttgo-t-beam\mqtt\esp-mqtt\mqtt_client.o
+Compiling .pio\build\ttgo-t-beam\mqtt\esp-mqtt\lib\mqtt_msg.o
+Compiling .pio\build\ttgo-t-beam\mqtt\esp-mqtt\lib\mqtt_outbox.o
+Compiling .pio\build\ttgo-t-beam\mqtt\esp-mqtt\lib\platform_esp32_idf.o
+Compiling .pio\build\ttgo-t-beam\newlib\abort.o
+Compiling .pio\build\ttgo-t-beam\newlib\assert.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\mbedtls\libmbedtls.a
+Compiling .pio\build\ttgo-t-beam\newlib\heap.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\mbedtls\libmbedtls.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\lwip\liblwip.a
+Compiling .pio\build\ttgo-t-beam\newlib\locks.o
+Compiling .pio\build\ttgo-t-beam\newlib\poll.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\lwip\liblwip.a
+Compiling .pio\build\ttgo-t-beam\newlib\pthread.o
+Compiling .pio\build\ttgo-t-beam\newlib\random.o
+Compiling .pio\build\ttgo-t-beam\newlib\reent_init.o
+Compiling .pio\build\ttgo-t-beam\newlib\newlib_init.o
+Compiling .pio\build\ttgo-t-beam\newlib\syscalls.o
+Compiling .pio\build\ttgo-t-beam\newlib\termios.o
+Compiling .pio\build\ttgo-t-beam\newlib\stdatomic.o
+Compiling .pio\build\ttgo-t-beam\newlib\time.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\mdns\libmdns.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\mqtt\libmqtt.a
+Compiling .pio\build\ttgo-t-beam\newlib\sysconf.o
+Compiling .pio\build\ttgo-t-beam\newlib\realpath.o
+Compiling .pio\build\ttgo-t-beam\newlib\port\esp_time_impl.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_buf.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\mqtt\libmqtt.a
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_callbacks.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_debug.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\mdns\libmdns.a
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_frame.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_hd.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_hd_huffman.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_hd_huffman_data.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_helper.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_http.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_map.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_mem.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_npn.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_option.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_outbound_item.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\newlib\libnewlib.a
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_pq.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\newlib\libnewlib.a
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_priority_spec.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_queue.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_rcbuf.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_session.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_stream.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_submit.o
+Compiling .pio\build\ttgo-t-beam\nghttp\nghttp2\lib\nghttp2_version.o
+Compiling .pio\build\ttgo-t-beam\nghttp\port\http_parser.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_api.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_cxx_api.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_item_hash_list.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_page.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_pagemanager.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_storage.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_handle_simple.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_handle_locked.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_partition.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_partition_lookup.o
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_partition_manager.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\nghttp\libnghttp.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\nghttp\libnghttp.a
+Compiling .pio\build\ttgo-t-beam\nvs_flash\src\nvs_types.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_cert.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_lib.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_methods.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_pkey.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_bio.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_err.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_stack.o
+Compiling .pio\build\ttgo-t-beam\openssl\library\ssl_x509.o
+Compiling .pio\build\ttgo-t-beam\openssl\platform\ssl_pm.o
+Compiling .pio\build\ttgo-t-beam\openssl\platform\ssl_port.o
+Compiling .pio\build\ttgo-t-beam\perfmon\xtensa_perfmon_access.o
+Compiling .pio\build\ttgo-t-beam\perfmon\xtensa_perfmon_apis.o
+Compiling .pio\build\ttgo-t-beam\perfmon\xtensa_perfmon_masks.o
+Compiling .pio\build\ttgo-t-beam\protobuf-c\protobuf-c\protobuf-c\protobuf-c.o
+Compiling .pio\build\ttgo-t-beam\protocomm\src\common\protocomm.o
+Compiling .pio\build\ttgo-t-beam\protocomm\src\security\security0.o
+Compiling .pio\build\ttgo-t-beam\protocomm\src\security\security1.o
+Compiling .pio\build\ttgo-t-beam\protocomm\proto-c\constants.pb-c.o
+Compiling .pio\build\ttgo-t-beam\protocomm\proto-c\sec0.pb-c.o
+Compiling .pio\build\ttgo-t-beam\protocomm\proto-c\sec1.pb-c.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\openssl\libopenssl.a
+Compiling .pio\build\ttgo-t-beam\protocomm\proto-c\session.pb-c.o
+Compiling .pio\build\ttgo-t-beam\protocomm\src\transports\protocomm_console.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\nvs_flash\libnvs_flash.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\openssl\libopenssl.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\perfmon\libperfmon.a
+Compiling .pio\build\ttgo-t-beam\protocomm\src\transports\protocomm_httpd.o
+Compiling .pio\build\ttgo-t-beam\protocomm\src\simple_ble\simple_ble.o
+Compiling .pio\build\ttgo-t-beam\protocomm\src\transports\protocomm_ble.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\nvs_flash\libnvs_flash.a
+Compiling .pio\build\ttgo-t-beam\pthread\pthread.o
+Compiling .pio\build\ttgo-t-beam\pthread\pthread_cond_var.o
+Compiling .pio\build\ttgo-t-beam\pthread\pthread_local_storage.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\perfmon\libperfmon.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\protobuf-c\libprotobuf-c.a
+Compiling .pio\build\ttgo-t-beam\pthread\pthread_rwlock.o
+Compiling .pio\build\ttgo-t-beam\sdmmc\sdmmc_cmd.o
+Compiling .pio\build\ttgo-t-beam\sdmmc\sdmmc_common.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\protobuf-c\libprotobuf-c.a
+Compiling .pio\build\ttgo-t-beam\sdmmc\sdmmc_init.o
+Compiling .pio\build\ttgo-t-beam\sdmmc\sdmmc_io.o
+Compiling .pio\build\ttgo-t-beam\sdmmc\sdmmc_mmc.o
+Compiling .pio\build\ttgo-t-beam\sdmmc\sdmmc_sd.o
+Compiling .pio\build\ttgo-t-beam\soc\lldesc.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\protocomm\libprotocomm.a
+Compiling .pio\build\ttgo-t-beam\soc\soc_include_legacy_warn.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\adc_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\dac_periph.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\pthread\libpthread.a
+Compiling .pio\build\ttgo-t-beam\soc\esp32\gpio_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\i2c_periph.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\protocomm\libprotocomm.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\pthread\libpthread.a
+Compiling .pio\build\ttgo-t-beam\soc\esp32\i2s_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\interrupts.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\lcd_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\ledc_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\mcpwm_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\pcnt_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\rmt_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\rtc_io_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\sdio_slave_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\sdmmc_periph.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\sdmmc\libsdmmc.a
+Compiling .pio\build\ttgo-t-beam\soc\esp32\sigmadelta_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\spi_periph.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\sdmmc\libsdmmc.a
+Compiling .pio\build\ttgo-t-beam\soc\esp32\timer_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\touch_sensor_periph.o
+Compiling .pio\build\ttgo-t-beam\soc\esp32\uart_periph.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\partition.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\esp32\spi_flash_rom_patch.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_drivers.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_generic.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_issi.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_mxic.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_gd.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_winbond.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_boya.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_mxic_opi.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_chip_th.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\soc\libsoc.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\soc\libsoc.a
+Compiling .pio\build\ttgo-t-beam\spi_flash\memspi_host_driver.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\cache_utils.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\flash_mmap.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\flash_ops.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\esp32\flash_ops_esp32.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\esp_flash_api.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\esp_flash_spi_init.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_os_func_app.o
+Compiling .pio\build\ttgo-t-beam\spi_flash\spi_flash_os_func_noos.o
+Compiling .pio\build\ttgo-t-beam\spiffs\esp_spiffs.o
+Compiling .pio\build\ttgo-t-beam\spiffs\spiffs_api.o
+Compiling .pio\build\ttgo-t-beam\spiffs\spiffs\src\spiffs_cache.o
+Compiling .pio\build\ttgo-t-beam\spiffs\spiffs\src\spiffs_check.o
+Compiling .pio\build\ttgo-t-beam\spiffs\spiffs\src\spiffs_gc.o
+Compiling .pio\build\ttgo-t-beam\spiffs\spiffs\src\spiffs_hydrogen.o
+Compiling .pio\build\ttgo-t-beam\spiffs\spiffs\src\spiffs_nucleus.o
+Compiling .pio\build\ttgo-t-beam\tcp_transport\transport.o
+Compiling .pio\build\ttgo-t-beam\tcp_transport\transport_ssl.o
+Compiling .pio\build\ttgo-t-beam\tcp_transport\transport_internal.o
+Compiling .pio\build\ttgo-t-beam\tcp_transport\transport_ws.o
+Compiling .pio\build\ttgo-t-beam\tcpip_adapter\tcpip_adapter_compat.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\spi_flash\libspi_flash.a
+Compiling .pio\build\ttgo-t-beam\ulp\ulp.o
+Compiling .pio\build\ttgo-t-beam\ulp\ulp_macro.o
+Compiling .pio\build\ttgo-t-beam\unity\unity\src\unity.o
+Compiling .pio\build\ttgo-t-beam\unity\unity_runner.o
+Compiling .pio\build\ttgo-t-beam\unity\unity_port_esp32.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\spi_flash\libspi_flash.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\spiffs\libspiffs.a
+Compiling .pio\build\ttgo-t-beam\vfs\vfs.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\spiffs\libspiffs.a
+Compiling .pio\build\ttgo-t-beam\vfs\vfs_eventfd.o
+Compiling .pio\build\ttgo-t-beam\vfs\vfs_uart.o
+Compiling .pio\build\ttgo-t-beam\vfs\vfs_semihost.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\ulp\libulp.a
+Compiling .pio\build\ttgo-t-beam\vfs\vfs_console.o
+Compiling .pio\build\ttgo-t-beam\wear_levelling\Partition.o
+Compiling .pio\build\ttgo-t-beam\wear_levelling\SPI_Flash.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\tcpip_adapter\libtcpip_adapter.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\unity\libunity.a
+Compiling .pio\build\ttgo-t-beam\wear_levelling\WL_Ext_Perf.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\ulp\libulp.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\tcpip_adapter\libtcpip_adapter.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\unity\libunity.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\tcp_transport\libtcp_transport.a
+Compiling .pio\build\ttgo-t-beam\wear_levelling\WL_Ext_Safe.o
+Compiling .pio\build\ttgo-t-beam\wear_levelling\WL_Flash.o
+Compiling .pio\build\ttgo-t-beam\wear_levelling\crc32.o
+Compiling .pio\build\ttgo-t-beam\wear_levelling\wear_levelling.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\src\wifi_config.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\tcp_transport\libtcp_transport.a
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\src\wifi_scan.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\src\manager.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\src\handlers.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\src\scheme_console.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\proto-c\wifi_config.pb-c.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\proto-c\wifi_scan.pb-c.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\vfs\libvfs.a
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\proto-c\wifi_constants.pb-c.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\src\scheme_softap.o
+Compiling .pio\build\ttgo-t-beam\wifi_provisioning\src\scheme_ble.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\wear_levelling\libwear_levelling.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\vfs\libvfs.a
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\port\os_xtensa.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\wear_levelling\libwear_levelling.a
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\ap\ap_config.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\ap\ieee802_1x.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\ap\wpa_auth.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\ap\wpa_auth_ie.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\common\sae.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\common\dragonfly.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\common\wpa_common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\bitfield.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\aes-siv.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\sha256-kdf.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\wifi_provisioning\libwifi_provisioning.a
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\ccmp.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\aes-gcm.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\crypto_ops.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\dh_group5.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\dh_groups.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\wifi_provisioning\libwifi_provisioning.a
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\ms_funcs.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\sha1-tlsprf.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\sha256-tlsprf.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\sha384-tlsprf.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\sha256-prf.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\sha1-prf.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\sha384-prf.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\md4-internal.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\chap.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_mschapv2.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_peap.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_peap_common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_tls.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_tls_common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_ttls.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\mschapv2.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_fast.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_fast_common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\eap_peer\eap_fast_pac.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\rsn_supp\pmksa_cache.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\rsn_supp\wpa.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\rsn_supp\wpa_ie.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\base64.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\ext_password.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\uuid.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\wpabuf.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\wpa_debug.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\utils\json.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_attr_build.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_attr_parse.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_attr_process.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_dev_attr.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_enrollee.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_registrar.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\wps\wps_validate.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\esp_supplicant\src\esp_common.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\esp_supplicant\src\esp_wpa2.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\esp_supplicant\src\esp_wpa_main.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\esp_supplicant\src\esp_wpas_glue.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\esp_supplicant\src\esp_wps.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\esp_supplicant\src\esp_wpa3.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\esp_supplicant\src\esp_hostap.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\tls_mbedtls.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\crypto_mbedtls.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\crypto_mbedtls-bignum.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\crypto_mbedtls-ec.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\rc4.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\des-internal.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\aes-wrap.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\aes-unwrap.o
+Compiling .pio\build\ttgo-t-beam\wpa_supplicant\src\crypto\aes-ccm.o
+Compiling .pio\build\ttgo-t-beam\xtensa\eri.o
+Compiling .pio\build\ttgo-t-beam\xtensa\xt_trax.o
+Compiling .pio\build\ttgo-t-beam\xtensa\xtensa_intr.o
+Compiling .pio\build\ttgo-t-beam\xtensa\xtensa_intr_asm.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\aes.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\aesni.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\arc4.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\aria.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\asn1parse.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\asn1write.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\base64.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\bignum.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\blowfish.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\wpa_supplicant\libwpa_supplicant.a
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\camellia.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\xtensa\libxtensa.a
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ccm.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\chacha20.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\chachapoly.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\wpa_supplicant\libwpa_supplicant.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\xtensa\libxtensa.a
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\cipher.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\cipher_wrap.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\constant_time.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\cmac.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ctr_drbg.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\des.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\dhm.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ecdh.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ecdsa.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ecjpake.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ecp.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ecp_curves.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\entropy.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\entropy_poll.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\error.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\gcm.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\havege.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\hkdf.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\hmac_drbg.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\md.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\md2.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\md4.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\md5.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\memory_buffer_alloc.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\mps_reader.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\mps_trace.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\nist_kw.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\oid.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\padlock.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pem.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pk.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pk_wrap.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pkcs12.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pkcs5.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pkparse.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pkwrite.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\platform.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\platform_util.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\poly1305.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_aead.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_cipher.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_client.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_driver_wrappers.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_ecp.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_hash.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_mac.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_rsa.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_se.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_slot_management.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_crypto_storage.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\psa_its_file.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ripemd160.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\rsa.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\rsa_internal.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\sha1.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\sha256.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\sha512.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\threading.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\timing.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\version.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\version_features.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\xtea.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\esp_hardware.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\esp_mem.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\esp_timing.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\sha\esp_sha.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\aes\esp_aes_xts.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\aes\esp_aes_common.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\aes\block\esp_aes.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\sha\parallel_engine\sha.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\esp_bignum.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\esp32\bignum.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\sha\parallel_engine\esp_sha1.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\sha\parallel_engine\esp_sha256.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\sha\parallel_engine\esp_sha512.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\md\esp_md.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\debug.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_cache.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_ciphersuites.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_cli.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_cookie.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_msg.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_srv.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_ticket.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_tls.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\ssl_tls13_keys.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\mbedtls_debug.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\port\net_sockets.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\mbedtls\mbedtls\library\libmbedcrypto.a
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\certs.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\pkcs11.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\x509.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\mbedtls\mbedtls\library\libmbedcrypto.a
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\x509_create.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\x509_crl.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\x509_crt.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\x509_csr.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\x509write_crt.o
+Compiling .pio\build\ttgo-t-beam\mbedtls\mbedtls\library\x509write_csr.o
+Compiling .pio\build\ttgo-t-beam\bootloader\hal\wdt_hal_iram.o
+Compiling .pio\build\ttgo-t-beam\bootloader\hal\mpu_hal.o
+Compiling .pio\build\ttgo-t-beam\bootloader\hal\cpu_hal.o
+Compiling .pio\build\ttgo-t-beam\bootloader\hal\efuse_hal.o
+Archiving .pio\build\ttgo-t-beam\esp-idf\mbedtls\mbedtls\library\libmbedtls.a
+Compiling .pio\build\ttgo-t-beam\bootloader\hal\esp32\efuse_hal.o
+Indexing .pio\build\ttgo-t-beam\esp-idf\mbedtls\mbedtls\library\libmbedtls.a
+Compiling .pio\build\ttgo-t-beam\bootloader\main\bootloader_start.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_common.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_common_loader.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_clock_init.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_flash.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_mem.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_random.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_random_esp32.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_utility.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\esp_image_format.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\hal\libhal.a
+Archiving .pio\build\ttgo-t-beam\esp-idf\mbedtls\mbedtls\library\libmbedx509.a
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\hal\libhal.a
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\main\libmain.a
+Indexing .pio\build\ttgo-t-beam\esp-idf\mbedtls\mbedtls\library\libmbedx509.a
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\flash_encrypt.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\main\libmain.a
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\secure_boot.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\flash_partitions.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\flash_qio_mode.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_flash_config_esp32.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_efuse.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_init.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_clock_loader.o
+Generating project linker script .pio\build\ttgo-t-beam\sections.ld
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_console.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_console_loader.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\bootloader_panic.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\esp32\bootloader_sha.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\esp32\bootloader_soc.o
+Compiling .pio\build\ttgo-t-beam\bootloader\bootloader_support\src\esp32\bootloader_esp32.o
+Compiling .pio\build\ttgo-t-beam\bootloader\efuse\esp32\esp_efuse_table.o
+Compiling .pio\build\ttgo-t-beam\bootloader\efuse\esp32\esp_efuse_fields.o
+Compiling .pio\build\ttgo-t-beam\bootloader\efuse\esp32\esp_efuse_utility.o
+Compiling .pio\build\ttgo-t-beam\bootloader\efuse\src\esp_efuse_api.o
+Compiling .pio\build\ttgo-t-beam\bootloader\efuse\src\esp_efuse_fields.o
+Compiling .pio\build\ttgo-t-beam\bootloader\efuse\src\esp_efuse_utility.o
+Compiling .pio\build\ttgo-t-beam\bootloader\efuse\src\esp_efuse_api_key_esp32.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_common\src\esp_err_to_name.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\compare_set.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\cpu_util.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\rtc_clk.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\rtc_clk_init.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\rtc_init.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\bootloader_support\libbootloader_support.a
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\rtc_pm.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\rtc_sleep.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\rtc_time.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\efuse\libefuse.a
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\rtc_wdt.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\bootloader_support\libbootloader_support.a
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_common\libesp_common.a
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\efuse\libefuse.a
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_hw_support\port\esp32\chip_info.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_rom\patches\esp_rom_crc.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_rom\patches\esp_rom_sys.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_rom\patches\esp_rom_uart.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_common\libesp_common.a
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_rom\patches\esp_rom_tjpgd.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_rom\patches\esp_rom_efuse.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_rom\patches\esp_rom_longjmp.o
+Compiling .pio\build\ttgo-t-beam\bootloader\esp_system\esp_err.o
+Compiling .pio\build\ttgo-t-beam\bootloader\log\log.o
+Compiling .pio\build\ttgo-t-beam\bootloader\log\log_buffers.o
+Compiling .pio\build\ttgo-t-beam\bootloader\log\log_noos.o
+Compiling .pio\build\ttgo-t-beam\bootloader\components\micro-ecc\uECC_verify_antifault.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\lldesc.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\soc_include_legacy_warn.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_hw_support\libesp_hw_support.a
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_system\libesp_system.a
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\adc_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\dac_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\gpio_periph.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_rom\libesp_rom.a
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\i2c_periph.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_hw_support\libesp_hw_support.a
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_system\libesp_system.a
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\i2s_periph.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\log\liblog.a
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\interrupts.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\esp_rom\libesp_rom.a
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\lcd_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\ledc_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\mcpwm_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\pcnt_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\rmt_periph.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\log\liblog.a
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\rtc_io_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\sdio_slave_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\sdmmc_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\sigmadelta_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\spi_periph.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\micro-ecc\libmicro-ecc.a
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\timer_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\touch_sensor_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\soc\esp32\uart_periph.o
+Compiling .pio\build\ttgo-t-beam\bootloader\spi_flash\esp32\spi_flash_rom_patch.o
+Compiling .pio\build\ttgo-t-beam\bootloader\xtensa\eri.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\micro-ecc\libmicro-ecc.a
+Compiling .pio\build\ttgo-t-beam\bootloader\xtensa\xt_trax.o
+Generating partitions .pio\build\ttgo-t-beam\partitions.bin
+Generating an empty partition .pio\build\ttgo-t-beam\ota_data_initial.bin
+Compiling .pio\build\ttgo-t-beam\lib6e1\Vector\Vector\Vector.cpp.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\soc\libsoc.a
+Compiling .pio\build\ttgo-t-beam\libd40\SPI\SPI.cpp.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\xtensa\libxtensa.a
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\soc\libsoc.a
+Compiling .pio\build\ttgo-t-beam\lib1c5\Wire\Wire.cpp.o
+Archiving .pio\build\ttgo-t-beam\bootloader\esp-idf\spi_flash\libspi_flash.a
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\xtensa\libxtensa.a
+Compiling .pio\build\ttgo-t-beam\lib7f7\TinyGPSPlus\TinyGPS++.cpp.o
+Indexing .pio\build\ttgo-t-beam\bootloader\esp-idf\spi_flash\libspi_flash.a
+Compiling .pio\build\ttgo-t-beam\lib684\AXP202X_Library\axp20x.cpp.o
+Compiling .pio\build\ttgo-t-beam\libbd8\ghostl@src-dfa714a17329298eacf79f30185c82c8\FastScheduler.cpp.o
+Linking .pio\build\ttgo-t-beam\bootloader.elf
+Compiling .pio\build\ttgo-t-beam\lib266\EspSoftwareSerial\SoftwareSerial.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\Hal.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\Module.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\hal\Arduino\ArduinoHal.cpp.o
+Building .pio\build\ttgo-t-beam\bootloader.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\hal\RPiPico\PicoHal.cpp.o
+Archiving .pio\build\ttgo-t-beam\libd40\libSPI.a
+Indexing .pio\build\ttgo-t-beam\libd40\libSPI.a
+.pio/libdeps/ttgo-t-beam/TinyGPSPlus/src/TinyGPS++.cpp: In member function 'bool TinyGPSPlus::encode(char)':
+.pio/libdeps/ttgo-t-beam/TinyGPSPlus/src/TinyGPS++.cpp:74:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+     parity ^= (uint8_t)c;
+     ~~~~~~~^~~~~~~~~~~~~
+.pio/libdeps/ttgo-t-beam/TinyGPSPlus/src/TinyGPS++.cpp:75:3: note: here
+   case '\r':
+   ^~~~
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\CC1101\CC1101.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LLCC68\LLCC68.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib1c5\libWire.a
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR1110.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib6e1\libVector.a
+Archiving .pio\build\ttgo-t-beam\lib7f7\libTinyGPSPlus.a
+Indexing .pio\build\ttgo-t-beam\lib1c5\libWire.a
+Indexing .pio\build\ttgo-t-beam\lib7f7\libTinyGPSPlus.a
+Indexing .pio\build\ttgo-t-beam\lib6e1\libVector.a
+Archiving .pio\build\ttgo-t-beam\lib684\libAXP202X_Library.a
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR1120.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR1121.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR11x0.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR11x0_commands.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib266\libEspSoftwareSerial.a
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR11x0_crypto.cpp.o
+Archiving .pio\build\ttgo-t-beam\libbd8\libghostl@src-dfa714a17329298eacf79f30185c82c8.a
+Indexing .pio\build\ttgo-t-beam\lib684\libAXP202X_Library.a
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR11x0_gnss.cpp.o
+Indexing .pio\build\ttgo-t-beam\lib266\libEspSoftwareSerial.a
+Indexing .pio\build\ttgo-t-beam\libbd8\libghostl@src-dfa714a17329298eacf79f30185c82c8.a
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\LR11x0\LR11x0_wifi.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\RF69\RF69.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX123x\SX1231.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX123x\SX1233.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\STM32WLx.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\STM32WLx_Module.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\SX1261.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\SX1262.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\SX1268.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\SX126x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\SX126x_LR_FHSS.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\SX126x_commands.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX126x\SX126x_config.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX127x\SX1272.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX127x\SX1273.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX127x\SX1276.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX127x\SX1277.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX127x\SX1278.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX127x\SX1279.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX127x\SX127x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX128x\SX1280.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX128x\SX1281.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX128x\SX1282.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\SX128x\SX128x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\Si443x\Si4430.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\Si443x\Si4431.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\Si443x\Si4432.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\Si443x\Si443x.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\modules\nRF24\nRF24.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\AFSK\AFSK.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\APRS\APRS.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\AX25\AX25.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\BellModem\BellModem.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\ExternalRadio\ExternalRadio.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\FSK4\FSK4.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\Hellschreiber\Hellschreiber.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\LoRaWAN\LoRaWAN.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\LoRaWAN\LoRaWANBands.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\Morse\Morse.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\Pager\Pager.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\PhysicalLayer\PhysicalLayer.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\Print\ITA2String.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\Print\Print.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\RTTY\RTTY.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\protocols\SSTV\SSTV.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\utils\CRC.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\utils\Cryptography.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\utils\FEC.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib5a7\RadioLib\utils\Utils.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFi.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiAP.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiClient.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiGeneric.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiMulti.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiSTA.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiScan.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiServer.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib1c3\WiFi\WiFiUdp.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\BuildOptions.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\EspHal.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib5a7\libRadioLib.a
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\LoraMesher.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\modules\LM_SX1262.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\modules\LM_SX1268.cpp.o
+Indexing .pio\build\ttgo-t-beam\lib5a7\libRadioLib.a
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\modules\LM_SX1276.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\modules\LM_SX1278.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\modules\LM_SX1280.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\services\PacketFactory.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\services\PacketQueueService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\services\PacketService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\services\RoleService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\services\RoutingTableService.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib1c3\libWiFi.a
+Indexing .pio\build\ttgo-t-beam\lib1c3\libWiFi.a
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\services\SimulatorService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib419\LoRaMesher\services\WifiService.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib655\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib655\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib655\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib655\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\ttgo-t-beam\libe51\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\ttgo-t-beam\libe51\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\ttgo-t-beam\libe51\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\ttgo-t-beam\libe51\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\ttgo-t-beam\lib463\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib8a7\OneWire\OneWire.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\U8g2lib.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\U8x8lib.cpp.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\mui.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\mui_u8g2.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_arc.c.o
+Archiving .pio\build\ttgo-t-beam\lib419\libLoRaMesher.a
+Archiving .pio\build\ttgo-t-beam\lib655\libAdafruit BusIO.a
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_bitmap.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_box.c.o
+Indexing .pio\build\ttgo-t-beam\lib419\libLoRaMesher.a
+Archiving .pio\build\ttgo-t-beam\libe51\libAdafruit GFX Library.a
+Indexing .pio\build\ttgo-t-beam\lib655\libAdafruit BusIO.a
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_buffer.c.o
+Indexing .pio\build\ttgo-t-beam\libe51\libAdafruit GFX Library.a
+.pio/libdeps/ttgo-t-beam/OneWire/OneWire.cpp:599:22: warning: extra tokens at end of #undef directive
+ #  undef noInterrupts() {portMUX_TYPE mux = portMUX_INITIALIZER_UNLOCKED;portENTER_CRITICAL(&mux)
+                      ^
+.pio/libdeps/ttgo-t-beam/OneWire/OneWire.cpp:600:20: warning: extra tokens at end of #undef directive
+ #  undef interrupts() portEXIT_CRITICAL(&mux);}
+                    ^
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_button.c.o
+Archiving .pio\build\ttgo-t-beam\lib463\libAdafruit SSD1306.a
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_circle.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_cleardisplay.c.o
+Archiving .pio\build\ttgo-t-beam\lib8a7\libOneWire.a
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_d_memory.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_d_setup.c.o
+Indexing .pio\build\ttgo-t-beam\lib463\libAdafruit SSD1306.a
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_font.c.o
+Indexing .pio\build\ttgo-t-beam\lib8a7\libOneWire.a
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_fonts.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_hvline.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_input_value.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_intersection.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_kerning.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_line.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_ll_hvline.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_message.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_polygon.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_selection_list.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8g2_setup.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8log.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8log_u8g2.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8log_u8x8.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_8x8.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_byte.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_cad.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_capture.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_a2printer.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ch1120.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_gp1247ai.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_gp1287ai.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_gp1294ai.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_gu800.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_hd44102.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_il3820_296x128.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ist3020.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ist3088.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ist7920.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ks0108.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_lc7981.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ld7032_60x32.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ls013b7dh03.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_max7219.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_pcd8544_84x48.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_pcf8812.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_pcf8814_hx1230.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_s1d15300.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_s1d15721.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_s1d15e06.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_sbn1661.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_sed1330.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_sh1106_64x32.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_sh1106_72x40.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_sh1107.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_sh1108.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_sh1122.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1305.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_128x32.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_128x64_noname.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_2040x16.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_48x64.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_64x32.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_64x48.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_72x40.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_96x16.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1306_96x40.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1309.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1312.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1315_128x64_noname.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1316.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1317.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1318.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1320.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1322.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1325.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1326.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1327.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1329.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1362.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1363.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1606_172x72.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_ssd1607_200x200.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7301.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7302.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7305.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7511.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st75160.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st75161.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st75256.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7528.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st75320.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7539.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7565.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7567.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7571.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7586s_erc240160.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7586s_jlx320160.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7586s_jlx384160.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7586s_md240128.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7586s_s028hn118a.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7586s_ymc240160.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7588.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_st7920.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_t6963.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1601.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1604.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1608.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1609.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1610.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1611.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1617.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1628.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1638.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1701_dogs102.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_d_uc1701_mini12864.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_debounce.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_display.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_fonts.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_gpio.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_input_value.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_message.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_selection_list.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_setup.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_string.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_u16toa.c.o
+Compiling .pio\build\ttgo-t-beam\lib032\U8g2\clib\u8x8_u8toa.c.o
+Compiling .pio\build\ttgo-t-beam\libe8c\SparkFun Ublox Arduino Library\SparkFun_Ublox_Arduino_Library.cpp.o
+Compiling .pio\build\ttgo-t-beam\libbb4\SparkFun u-blox Arduino Library\SparkFun_Ublox_Arduino_Library.cpp.o
+Compiling .pio\build\ttgo-t-beam\libdc9\XPowersLib\XPowersLibInterface.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib032\libU8g2.a
+Compiling .pio\build\ttgo-t-beam\libe70\BluetoothSerial\BTAddress.cpp.o
+Compiling .pio\build\ttgo-t-beam\libe70\BluetoothSerial\BTAdvertisedDeviceSet.cpp.o
+Compiling .pio\build\ttgo-t-beam\libe70\BluetoothSerial\BTScanResultsSet.cpp.o
+Compiling .pio\build\ttgo-t-beam\libe70\BluetoothSerial\BluetoothSerial.cpp.o
+Indexing .pio\build\ttgo-t-beam\lib032\libU8g2.a
+.pio/libdeps/ttgo-t-beam/SparkFun Ublox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp: In member function 'boolean SFE_UBLOX_GPS::getRELPOSNED(uint16_t)':
+.pio/libdeps/ttgo-t-beam/SparkFun Ublox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp:2638:12: warning: unused variable 'refStationID' [-Wunused-variable]
+   uint16_t refStationID = extractInt(2);
+            ^~~~~~~~~~~~
+.pio/libdeps/ttgo-t-beam/SparkFun u-blox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp: In member function 'boolean SFE_UBLOX_GPS::getRELPOSNED(uint16_t)':
+.pio/libdeps/ttgo-t-beam/SparkFun u-blox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp:4082:12: warning: unused variable 'refStationID' [-Wunused-variable]
+   uint16_t refStationID = extractInt(2);
+            ^~~~~~~~~~~~
+.pio/libdeps/ttgo-t-beam/SparkFun u-blox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp: In member function 'boolean SFE_UBLOX_GPS::getEsfDataInfo(uint16_t)':
+.pio/libdeps/ttgo-t-beam/SparkFun u-blox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp:4237:12: warning: unused variable 'timeStamp' [-Wunused-variable]
+   uint32_t timeStamp = extractLong(0);
+            ^~~~~~~~~
+.pio/libdeps/ttgo-t-beam/SparkFun u-blox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp:4240:11: warning: unused variable 'timeSent' [-Wunused-variable]
+   uint8_t timeSent = flags & 0x03; // timeSent is 2-bit: 0 = none, 1 = on Ext0, 2 = on Ext1
+           ^~~~~~~~
+.pio/libdeps/ttgo-t-beam/SparkFun u-blox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp:4241:11: warning: unused variable 'timeEdge' [-Wunused-variable]
+   uint8_t timeEdge = (flags & 0x04) >> 2;
+           ^~~~~~~~
+.pio/libdeps/ttgo-t-beam/SparkFun u-blox Arduino Library/src/SparkFun_Ublox_Arduino_Library.cpp:4242:11: warning: unused variable 'tagValid' [-Wunused-variable]
+   uint8_t tagValid = (flags & 0x08) >> 3;
+           ^~~~~~~~
+Archiving .pio\build\ttgo-t-beam\libe8c\libSparkFun Ublox Arduino Library.a
+Archiving .pio\build\ttgo-t-beam\libdc9\libXPowersLib.a
+Indexing .pio\build\ttgo-t-beam\libe8c\libSparkFun Ublox Arduino Library.a
+Indexing .pio\build\ttgo-t-beam\libdc9\libXPowersLib.a
+Archiving .pio\build\ttgo-t-beam\libbb4\libSparkFun u-blox Arduino Library.a
+Indexing .pio\build\ttgo-t-beam\libbb4\libSparkFun u-blox Arduino Library.a
+Archiving .pio\build\ttgo-t-beam\libe70\libBluetoothSerial.a
+Indexing .pio\build\ttgo-t-beam\libe70\libBluetoothSerial.a
+Linking .pio\build\ttgo-t-beam\firmware.elf
+Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
+Checking size .pio\build\ttgo-t-beam\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   3.1% (used 40848 bytes from 1310720 bytes)
+Flash: [====      ]  36.2% (used 1210489 bytes from 3342336 bytes)
+Building .pio\build\ttgo-t-beam\firmware.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 26 ELF sections
+Successfully created esp32 image.
+======================== [SUCCESS] Took 462.13 seconds ========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+ttgo-t-beam    SUCCESS   00:07:42.132
+========================= 1 succeeded in 00:07:42.132 =========================

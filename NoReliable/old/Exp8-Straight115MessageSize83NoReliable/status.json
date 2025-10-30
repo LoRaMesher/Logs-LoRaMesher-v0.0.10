@@ -1,0 +1,92 @@
+[
+    {
+        "device": 22212,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:16",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:02",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:02"
+    },
+    {
+        "device": 25516,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:17",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:03",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:03"
+    },
+    {
+        "device": 37428,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:17",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:04",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:04"
+    },
+    {
+        "device": 27980,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:18",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:04",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:04"
+    },
+    {
+        "device": 22656,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:18",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:24:49",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:24:49"
+    },
+    {
+        "device": 20068,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:19",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:15:18",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:15:18"
+    },
+    {
+        "device": 22312,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:19",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:06",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:06"
+    },
+    {
+        "device": 20056,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:20",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:06",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:07"
+    },
+    {
+        "device": 38560,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:20",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:06",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:06"
+    },
+    {
+        "device": 22300,
+        "started": true,
+        "startedDate": "12/12/2023 02:54:40",
+        "endedSim": true,
+        "endedDate": "12/12/2023 07:25:42",
+        "endedLogs": true,
+        "endedLogsDate": "12/12/2023 07:25:50"
+    }
+]
