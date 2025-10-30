@@ -1,0 +1,90 @@
+********************************************************************************
+Obsolete PIO Core v6.1.7a4 is used (previous was 6.1.9)
+Please remove multiple PIO Cores from a system:
+https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
+********************************************************************************
+Processing ttgo-t-beam (board: ttgo-t-beam; platform: espressif32; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-t-beam.html
+PLATFORM: Espressif 32 (6.1.0) > TTGO T-Beam
+HARDWARE: ESP32 240MHz, 1.25MB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20007.0 (2.0.7) 
+ - tool-esptoolpy @ 1.40500.0 (4.5.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 45 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- WiFi @ 2.0.0
+|-- Wire @ 2.0.0
+|-- LoRaMesher @ 0.0.6+sha.1c2d219
+|-- Adafruit SSD1306 @ 2.5.7
+|-- Adafruit GFX Library @ 1.11.5
+|-- Adafruit BusIO @ 1.14.1
+|-- ArduinoJson @ 6.21.2
+|-- MQTT @ 2.5.1
+|-- OneWire @ 2.3.7
+|-- DallasTemperature @ 3.11.0
+|-- ArduinoBLE @ 1.3.4
+|-- ArduinoLog @ 1.1.1+sha.3f4fcf5
+|-- Preferences @ 2.0.0
+|-- WiFiClientSecure @ 2.0.0
+Building in release mode
+Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
+Checking size .pio\build\ttgo-t-beam\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   3.9% (used 51700 bytes from 1310720 bytes)
+Flash: [========  ]  81.6% (used 1069529 bytes from 1310720 bytes)
+========================= [SUCCESS] Took 24.62 seconds =========================
+
+Processing ttgo-lora32-v1 (board: ttgo-lora32-v1; platform: espressif32; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-lora32-v1.html
+PLATFORM: Espressif 32 (6.1.0) > TTGO LoRa32-OLED V1
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20007.0 (2.0.7) 
+ - tool-esptoolpy @ 1.40500.0 (4.5.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 45 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- WiFi @ 2.0.0
+|-- Wire @ 2.0.0
+|-- LoRaMesher @ 0.0.6+sha.07e6be0
+|-- Adafruit SSD1306 @ 2.5.7
+|-- Adafruit GFX Library @ 1.11.5
+|-- Adafruit BusIO @ 1.14.1
+|-- ArduinoJson @ 6.21.2
+|-- MQTT @ 2.5.1
+|-- OneWire @ 2.3.7
+|-- DallasTemperature @ 3.11.0
+|-- ArduinoBLE @ 1.3.4
+|-- ArduinoLog @ 1.1.1+sha.3f4fcf5
+|-- Preferences @ 2.0.0
+|-- WiFiClientSecure @ 2.0.0
+Building in release mode
+Retrieving maximum program size .pio\build\ttgo-lora32-v1\firmware.elf
+Checking size .pio\build\ttgo-lora32-v1\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  15.8% (used 51620 bytes from 327680 bytes)
+Flash: [========  ]  80.1% (used 1049909 bytes from 1310720 bytes)
+========================= [SUCCESS] Took 25.29 seconds =========================
+
+Environment     Status    Duration
+--------------  --------  ------------
+ttgo-t-beam     SUCCESS   00:00:24.618
+ttgo-lora32-v1  SUCCESS   00:00:25.293
+========================= 2 succeeded in 00:00:49.911 =========================

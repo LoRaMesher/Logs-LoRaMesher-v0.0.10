@@ -1,0 +1,131 @@
+********************************************************************************
+Obsolete PIO Core v6.1.7a4 is used (previous was 6.1.11)
+Please remove multiple PIO Cores from a system:
+https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
+********************************************************************************
+Processing ttgo-t-beam (board: ttgo-t-beam; platform: espressif32@5.2.0; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-t-beam.html
+PLATFORM: Espressif 32 (5.2.0) > TTGO T-Beam
+HARDWARE: ESP32 240MHz, 1.25MB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20005.220925 (2.0.5) 
+ - tool-esptoolpy @ 1.40201.0 (4.2.1) 
+ - tool-mkfatfs @ 2.0.1 
+ - tool-mklittlefs @ 1.203.210628 (2.3) 
+ - tool-mkspiffs @ 2.230.0 (2.30) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch3
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 44 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- TinyGPSPlus @ 1.0.3
+|-- AXP202X_Library @ 1.1.3
+|-- EspSoftwareSerial @ 8.1.0
+|-- LoRaMesher @ 0.0.8+sha.7d1dd2a
+|-- Adafruit SSD1306 @ 2.5.9
+|-- Adafruit GFX Library @ 1.11.9
+|-- OneWire @ 2.3.7
+|-- ArduinoJson @ 6.21.3
+|-- SparkFun u-blox Arduino Library @ 1.8.11+sha.1e70755
+|-- BluetoothSerial @ 2.0.0
+|-- Preferences @ 2.0.0
+Building in release mode
+Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
+Checking size .pio\build\ttgo-t-beam\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   3.2% (used 42164 bytes from 1310720 bytes)
+Flash: [===       ]  33.1% (used 1040305 bytes from 3145728 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: COM9
+Uploading .pio\build\ttgo-t-beam\firmware.bin
+esptool.py v4.2.1
+Serial port COM9
+Connecting....
+Chip is ESP32-D0WDQ6-V3 (revision 3)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:3a:f2:47:63:ac
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00005fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Flash will be erased from 0x00010000 to 0x0010ffff...
+Compressed 17440 bytes to 12127...
+Writing at 0x00001000... (100 %)
+Wrote 17440 bytes (12127 compressed) at 0x00001000 in 0.6 seconds (effective 221.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 119...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (119 compressed) at 0x00008000 in 0.1 seconds (effective 414.6 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 47...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (47 compressed) at 0x0000e000 in 0.1 seconds (effective 464.7 kbit/s)...
+Hash of data verified.
+Compressed 1046080 bytes to 646232...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001c583... (5 %)
+Writing at 0x00029e51... (7 %)
+Writing at 0x00032d18... (10 %)
+Writing at 0x00046a93... (12 %)
+Writing at 0x0004c58c... (15 %)
+Writing at 0x000522fc... (17 %)
+Writing at 0x00058611... (20 %)
+Writing at 0x0005e80a... (22 %)
+Writing at 0x0006496d... (25 %)
+Writing at 0x0006a3dc... (27 %)
+Writing at 0x0006fa79... (30 %)
+Writing at 0x000752f3... (32 %)
+Writing at 0x0007a865... (35 %)
+Writing at 0x0007f957... (37 %)
+Writing at 0x00084cf7... (40 %)
+Writing at 0x0008a1cb... (42 %)
+Writing at 0x0008f355... (45 %)
+Writing at 0x00094a60... (47 %)
+Writing at 0x00099c87... (50 %)
+Writing at 0x0009f056... (52 %)
+Writing at 0x000a40d9... (55 %)
+Writing at 0x000a96b2... (57 %)
+Writing at 0x000af2e8... (60 %)
+Writing at 0x000b491d... (62 %)
+Writing at 0x000b9d84... (65 %)
+Writing at 0x000beefa... (67 %)
+Writing at 0x000c4254... (70 %)
+Writing at 0x000c965c... (72 %)
+Writing at 0x000ceb69... (75 %)
+Writing at 0x000d4400... (77 %)
+Writing at 0x000d9f4f... (80 %)
+Writing at 0x000df987... (82 %)
+Writing at 0x000e54e8... (85 %)
+Writing at 0x000eb4c0... (87 %)
+Writing at 0x000f3d56... (90 %)
+Writing at 0x000fc922... (92 %)
+Writing at 0x00101a3a... (95 %)
+Writing at 0x001073c0... (97 %)
+Writing at 0x0010ce90... (100 %)
+Wrote 1046080 bytes (646232 compressed) at 0x00010000 in 16.0 seconds (effective 521.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+========================= [SUCCESS] Took 86.87 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+ttgo-t-beam    SUCCESS   00:01:26.871
+========================= 1 succeeded in 00:01:26.871 =========================

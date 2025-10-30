@@ -1,0 +1,55 @@
+********************************************************************************
+Obsolete PIO Core v6.1.7a4 is used (previous was 6.1.11)
+Please remove multiple PIO Cores from a system:
+https://docs.platformio.org/en/latest/core/installation/troubleshooting.html
+********************************************************************************
+Processing ttgo-t-beam (board: ttgo-t-beam; platform: espressif32@5.2.0; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-t-beam.html
+PLATFORM: Espressif 32 (5.2.0) > TTGO T-Beam
+HARDWARE: ESP32 240MHz, 1.25MB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20005.220925 (2.0.5) 
+ - tool-esptoolpy @ 1.40201.0 (4.2.1) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch3
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 44 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- TinyGPSPlus @ 1.0.3
+|-- AXP202X_Library @ 1.1.3
+|-- EspSoftwareSerial @ 8.1.0
+|-- LoRaMesher @ 0.0.8+sha.7d1dd2a
+|-- Adafruit SSD1306 @ 2.5.9
+|-- Adafruit GFX Library @ 1.11.9
+|-- OneWire @ 2.3.7
+|-- ArduinoJson @ 6.21.3
+|-- SparkFun u-blox Arduino Library @ 1.8.11+sha.1e70755
+|-- BluetoothSerial @ 2.0.0
+|-- Preferences @ 2.0.0
+Building in release mode
+Compiling .pio\build\ttgo-t-beam\lib9eb\LoRaMesher\LoraMesher.cpp.o
+Archiving .pio\build\ttgo-t-beam\lib9eb\libLoRaMesher.a
+Linking .pio\build\ttgo-t-beam\firmware.elf
+Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
+Checking size .pio\build\ttgo-t-beam\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   3.2% (used 42164 bytes from 1310720 bytes)
+Flash: [===       ]  33.1% (used 1040525 bytes from 3145728 bytes)
+Building .pio\build\ttgo-t-beam\firmware.bin
+esptool.py v4.2.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 26.17 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+ttgo-t-beam    SUCCESS   00:00:26.165
+========================= 1 succeeded in 00:00:26.165 =========================

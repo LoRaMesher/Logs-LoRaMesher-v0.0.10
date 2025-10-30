@@ -1,0 +1,140 @@
+Processing ttgo-lora32-v1 (board: ttgo-lora32-v1; platform: espressif32@6.5.0; framework: arduino, espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-lora32-v1.html
+PLATFORM: Espressif 32 (6.5.0) > TTGO LoRa32-OLED V1
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20014.231204 (2.0.14) 
+ - framework-espidf @ 3.40406.240122 (4.4.6) 
+ - tool-cmake @ 3.16.4 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-idf @ 1.0.1 
+ - tool-mconf @ 1.4060000.20190628 (406.0.0) 
+ - tool-mkfatfs @ 2.0.1 
+ - tool-mklittlefs @ 1.203.210628 (2.3) 
+ - tool-mkspiffs @ 2.230.0 (2.30) 
+ - tool-ninja @ 1.9.0 
+ - toolchain-esp32ulp @ 1.23500.220830 (2.35.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+C:\Users\janm2\.platformio\platforms\espressif32\builder\frameworks\espidf.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warning! Arduino framework as an ESP-IDF component doesn't handle the `variant` field! The default `esp32` variant will be used.
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 48 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- TinyGPSPlus @ 1.1.0
+|-- AXP202X_Library @ 1.1.3
+|-- EspSoftwareSerial @ 8.2.0
+|-- LoRaMesher @ 0.0.10+sha.02e122a
+|-- Adafruit SSD1306 @ 2.5.15
+|-- Adafruit GFX Library @ 1.12.3
+|-- OneWire @ 2.3.8
+|-- ArduinoJson @ 6.21.4
+|-- ghostl @ 1.0.1
+|-- U8g2 @ 2.36.14+sha.b744b2b
+|-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
+|-- BluetoothSerial @ 2.0.0
+|-- WiFi @ 2.0.0
+Building in release mode
+Retrieving maximum program size .pio\build\ttgo-lora32-v1\firmware.elf
+Checking size .pio\build\ttgo-lora32-v1\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  12.3% (used 40288 bytes from 327680 bytes)
+Flash: [===       ]  33.9% (used 1131457 bytes from 3342336 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: COM12
+Uploading .pio\build\ttgo-lora32-v1\firmware.bin
+esptool.py v4.5.1
+Serial port COM12
+Connecting......
+Chip is ESP32-D0WDQ6-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 26MHz
+MAC: 58:bf:25:05:56:c4
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00006fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Flash will be erased from 0x00010000 to 0x00125fff...
+Compressed 22912 bytes to 14928...
+Writing at 0x00001000... (100 %)
+Wrote 22912 bytes (14928 compressed) at 0x00001000 in 0.8 seconds (effective 239.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 136...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (136 compressed) at 0x00008000 in 0.1 seconds (effective 346.5 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 482.7 kbit/s)...
+Hash of data verified.
+Compressed 1137760 bytes to 679001...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001bbc8... (4 %)
+Writing at 0x000282a2... (7 %)
+Writing at 0x00031e06... (9 %)
+Writing at 0x0003d7b8... (11 %)
+Writing at 0x000436e9... (14 %)
+Writing at 0x0004b2be... (16 %)
+Writing at 0x000532d8... (19 %)
+Writing at 0x0005d0c3... (21 %)
+Writing at 0x0006517b... (23 %)
+Writing at 0x0006b5bc... (26 %)
+Writing at 0x0007159a... (28 %)
+Writing at 0x00077ed6... (30 %)
+Writing at 0x0007dc58... (33 %)
+Writing at 0x00083e1e... (35 %)
+Writing at 0x00089579... (38 %)
+Writing at 0x0008eeb5... (40 %)
+Writing at 0x0009466c... (42 %)
+Writing at 0x00099e0a... (45 %)
+Writing at 0x0009fa07... (47 %)
+Writing at 0x000a562a... (50 %)
+Writing at 0x000ab203... (52 %)
+Writing at 0x000b0de2... (54 %)
+Writing at 0x000b740d... (57 %)
+Writing at 0x000bce47... (59 %)
+Writing at 0x000c2471... (61 %)
+Writing at 0x000c7c1e... (64 %)
+Writing at 0x000ccec1... (66 %)
+Writing at 0x000d23a4... (69 %)
+Writing at 0x000d7591... (71 %)
+Writing at 0x000dcce8... (73 %)
+Writing at 0x000e2472... (76 %)
+Writing at 0x000e807a... (78 %)
+Writing at 0x000edcb3... (80 %)
+Writing at 0x000f3cd1... (83 %)
+Writing at 0x000fa786... (85 %)
+Writing at 0x00102845... (88 %)
+Writing at 0x0010bc9f... (90 %)
+Writing at 0x001125cd... (92 %)
+Writing at 0x00118183... (95 %)
+Writing at 0x0011e075... (97 %)
+Writing at 0x00123286... (100 %)
+Wrote 1137760 bytes (679001 compressed) at 0x00010000 in 16.1 seconds (effective 566.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+========================= [SUCCESS] Took 63.88 seconds =========================
+
+Environment     Status    Duration
+--------------  --------  ------------
+ttgo-lora32-v1  SUCCESS   00:01:03.877
+========================= 1 succeeded in 00:01:03.877 =========================

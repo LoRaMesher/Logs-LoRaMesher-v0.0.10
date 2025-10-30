@@ -1,0 +1,15 @@
+{
+    "startedBuilding": "07/08/2023 18:01:45",
+    "builded": true,
+    "deviceMonitorStarted": true,
+    "deviceMonitorStartedTime": "07/08/2023 18:03:38",
+    "allDevicesStartedSim": true,
+    "allDevicesStartedSimTime": "07/08/2023 18:03:59",
+    "allDevicesEndedSim": true,
+    "allDevicesEndedSimTime": "07/08/2023 20:24:50",
+    "allDevicesEndedLogs": true,
+    "allDevicesEndedLogsTime": "07/08/2023 20:24:50",
+    "error": false,
+    "error_time": "",
+    "error_message": "Device already started simulation"
+}
