@@ -1,13 +1,13 @@
 # Experimental Results
 
-**Generated:** 2025-10-28 11:41:09
+**Generated:** 2025-12-09 12:28:43
 **Confidence Level:** 95%
 
-| Configuration | n | Packet Delivery Ratio (Mean ± SD) | 95% CI | Packet Loss (Mean ± SD) | 95% CI |
+| Configuration | n | Message Delivery Ratio (Mean ± SD) | 95% CI | Message Loss (Mean ± SD) | 95% CI |
 |---------------|---|----------------------|-----------|----------------------|-----------|
 | 1 | 5 | 99.97 ± 0.03% | [99.94, 100.00]% | 0.03 ± 0.03% | [-0.00, 0.06]% |
 | 2 | 5 | 96.90 ± 2.04% | [94.36, 99.44]% | 3.10 ± 2.04% | [0.56, 5.64]% |
 | 3 | 5 | 100.00 ± 0.00% | [100.00, 100.00]% | 0.00 ± 0.00% | [0.00, 0.00]% |
-| 4 | 5 | 100.00 ± 0.00% | [100.00, 100.00]% | 0.00 ± 0.00% | [0.00, 0.00]% |
+| 4 | 5 | 89.00 ± 7.42% | [79.79, 98.21]% | 11.00 ± 7.42% | [1.79, 20.21]% |
 
 *CI = Confidence Interval calculated using Student's t-distribution*

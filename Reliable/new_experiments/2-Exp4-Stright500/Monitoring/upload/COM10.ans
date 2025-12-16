@@ -1,0 +1,141 @@
+Processing ttgo-lora32-v1 (board: ttgo-lora32-v1; platform: espressif32@6.5.0; framework: arduino, espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/ttgo-lora32-v1.html
+PLATFORM: Espressif 32 (6.5.0) > TTGO LoRa32-OLED V1
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20014.231204 (2.0.14) 
+ - framework-espidf @ 3.40406.240122 (4.4.6) 
+ - tool-cmake @ 3.16.4 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-idf @ 1.0.1 
+ - tool-mconf @ 1.4060000.20190628 (406.0.0) 
+ - tool-mkfatfs @ 2.0.1 
+ - tool-mklittlefs @ 1.203.210628 (2.3) 
+ - tool-mkspiffs @ 2.230.0 (2.30) 
+ - tool-ninja @ 1.9.0 
+ - toolchain-esp32ulp @ 1.23500.220830 (2.35.0) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+C:\Users\janm2\.platformio\platforms\espressif32\builder\frameworks\espidf.py:29: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warning! Arduino framework as an ESP-IDF component doesn't handle the `variant` field! The default `esp32` variant will be used.
+Reading CMake configuration...
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 48 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Vector @ 1.2.2
+|-- SPI @ 2.0.0
+|-- Wire @ 2.0.0
+|-- TinyGPSPlus @ 1.1.0
+|-- AXP202X_Library @ 1.1.3
+|-- EspSoftwareSerial @ 8.2.0
+|-- LoRaMesher @ 0.0.11
+|-- Adafruit SSD1306 @ 2.5.15
+|-- Adafruit GFX Library @ 1.12.3
+|-- OneWire @ 2.3.8
+|-- ArduinoJson @ 6.21.4
+|-- ghostl @ 1.0.1
+|-- U8g2 @ 2.36.15+sha.d365ab5
+|-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
+|-- BluetoothSerial @ 2.0.0
+|-- WiFi @ 2.0.0
+Building in release mode
+Retrieving maximum program size .pio\build\ttgo-lora32-v1\firmware.elf
+Checking size .pio\build\ttgo-lora32-v1\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  12.4% (used 40648 bytes from 327680 bytes)
+Flash: [====      ]  35.5% (used 1185581 bytes from 3342336 bytes)
+Configuring upload protocol...
+AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
+CURRENT: upload_protocol = esptool
+Looking for upload port...
+Using manually specified: COM10
+Uploading .pio\build\ttgo-lora32-v1\firmware.bin
+esptool.py v4.5.1
+Serial port COM10
+Connecting.....
+Chip is ESP32-D0WDQ6-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 26MHz
+MAC: 58:bf:25:05:57:1c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00006fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000e000 to 0x0000ffff...
+Flash will be erased from 0x00010000 to 0x00132fff...
+Compressed 22912 bytes to 14928...
+Writing at 0x00001000... (100 %)
+Wrote 22912 bytes (14928 compressed) at 0x00001000 in 0.8 seconds (effective 242.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 136...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (136 compressed) at 0x00008000 in 0.1 seconds (effective 349.8 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000e000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 489.9 kbit/s)...
+Hash of data verified.
+Compressed 1191872 bytes to 700618...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001bfbc... (4 %)
+Writing at 0x00028a98... (6 %)
+Writing at 0x00033f53... (9 %)
+Writing at 0x00040e0c... (11 %)
+Writing at 0x000476bd... (13 %)
+Writing at 0x000503cc... (16 %)
+Writing at 0x0005a60a... (18 %)
+Writing at 0x00062536... (20 %)
+Writing at 0x00069077... (23 %)
+Writing at 0x0006f163... (25 %)
+Writing at 0x00075744... (27 %)
+Writing at 0x0007bb05... (30 %)
+Writing at 0x00081eb6... (32 %)
+Writing at 0x00087d01... (34 %)
+Writing at 0x0008d33f... (37 %)
+Writing at 0x00092da8... (39 %)
+Writing at 0x00098538... (41 %)
+Writing at 0x0009dec7... (44 %)
+Writing at 0x000a3c43... (46 %)
+Writing at 0x000a96d1... (48 %)
+Writing at 0x000af291... (51 %)
+Writing at 0x000b4d8a... (53 %)
+Writing at 0x000bb6d7... (55 %)
+Writing at 0x000c0fda... (58 %)
+Writing at 0x000c6765... (60 %)
+Writing at 0x000cbe5c... (62 %)
+Writing at 0x000d112f... (65 %)
+Writing at 0x000d65cd... (67 %)
+Writing at 0x000db81f... (69 %)
+Writing at 0x000e0f2e... (72 %)
+Writing at 0x000e66a9... (74 %)
+Writing at 0x000ec2f4... (76 %)
+Writing at 0x000f1e93... (79 %)
+Writing at 0x000f79cb... (81 %)
+Writing at 0x000fe8c3... (83 %)
+Writing at 0x00104db2... (86 %)
+Writing at 0x0010f591... (88 %)
+Writing at 0x001166a1... (90 %)
+Writing at 0x0011dea5... (93 %)
+Writing at 0x0012375b... (95 %)
+Writing at 0x00129281... (97 %)
+Writing at 0x0012ea94... (100 %)
+Wrote 1191872 bytes (700618 compressed) at 0x00010000 in 17.3 seconds (effective 549.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+========================= [SUCCESS] Took 66.99 seconds =========================
+
+Environment     Status    Duration
+--------------  --------  ------------
+ttgo-lora32-v1  SUCCESS   00:01:06.994
+========================= 1 succeeded in 00:01:06.994 =========================

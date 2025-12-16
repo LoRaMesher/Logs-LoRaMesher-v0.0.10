@@ -4,13 +4,13 @@
     "_comment_timeout": "Total simulation timeout in minutes. Additional phase timeouts: 10 min for devices to start, 15 min for devices to end, 5 min for monitor startup.",
     "DeviceMapping": {
         "COM9": "ttgo-lora32-v1",
-        "COM10": "ttgo-lora32-v1",
-        "COM11": "ttgo-lora32-v1",
         "COM12": "ttgo-lora32-v1",
-        "COM13": "ttgo-t-beam",
+        "COM11": "ttgo-lora32-v1",
+        "COM10": "ttgo-lora32-v1",
         "COM14": "ttgo-t-beam",
-        "COM15": "ttgo-t-beam",
         "COM3": "ttgo-t-beam",
+        "COM13": "ttgo-t-beam",
+        "COM15": "ttgo-t-beam",
         "COM16": "ttgo-t-beam-v1-2",
         "COM17": "ttgo-t-beam-v1-2"
     },
