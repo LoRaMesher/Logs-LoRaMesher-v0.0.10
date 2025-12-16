@@ -1,0 +1,41 @@
+{
+    "startedBuilding": "11/11/2025 08:26:39",
+    "builded": true,
+    "allPortsUploaded": true,
+    "uploadedPorts": [
+        "COM17",
+        "COM10",
+        "COM14",
+        "COM12",
+        "COM15",
+        "COM16",
+        "COM13",
+        "COM11",
+        "COM9",
+        "COM3"
+    ],
+    "deviceMonitorStarted": true,
+    "deviceMonitorStartedTime": "11/11/2025 08:28:37",
+    "allDevicesStartedSim": true,
+    "allDevicesStartedSimTime": "11/11/2025 08:29:23",
+    "allDevicesEndedSim": true,
+    "allDevicesEndedSimTime": "11/11/2025 11:07:54",
+    "allDevicesEndedLogs": true,
+    "allDevicesEndedLogsTime": "11/11/2025 11:09:44",
+    "deviceAddressAndCOM": {
+        "COM10": 22300,
+        "COM17": 30336,
+        "COM14": 35872,
+        "COM12": 22212,
+        "COM16": 59256,
+        "COM15": 38560,
+        "COM13": 27980,
+        "COM11": 22312,
+        "COM3": 56988,
+        "COM9": 20056
+    },
+    "error": false,
+    "error_time": "",
+    "error_message": "",
+    "comments": "Possible internet disconnections during simulation time."
+}

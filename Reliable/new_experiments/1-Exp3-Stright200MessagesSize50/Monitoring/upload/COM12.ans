@@ -9,7 +9,7 @@ PACKAGES:
  - framework-arduinoespressif32 @ 3.20014.231204 (2.0.14) 
  - framework-espidf @ 3.40406.240122 (4.4.6) 
  - tool-cmake @ 3.16.4 
- - tool-esptoolpy @ 1.40201.0 (4.2.1) 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
  - tool-idf @ 1.0.1 
  - tool-mconf @ 1.4060000.20190628 (406.0.0) 
  - tool-mkfatfs @ 2.0.1 
@@ -33,13 +33,13 @@ Dependency Graph
 |-- TinyGPSPlus @ 1.1.0
 |-- AXP202X_Library @ 1.1.3
 |-- EspSoftwareSerial @ 8.2.0
-|-- LoRaMesher @ 0.0.10+sha.67c19f8
+|-- LoRaMesher @ 0.0.11
 |-- Adafruit SSD1306 @ 2.5.15
 |-- Adafruit GFX Library @ 1.12.3
 |-- OneWire @ 2.3.8
 |-- ArduinoJson @ 6.21.4
 |-- ghostl @ 1.0.1
-|-- U8g2 @ 2.36.12+sha.b5628c5
+|-- U8g2 @ 2.36.15+sha.d365ab5
 |-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
 |-- BluetoothSerial @ 2.0.0
 |-- WiFi @ 2.0.0
@@ -47,18 +47,18 @@ Building in release mode
 Retrieving maximum program size .pio\build\ttgo-lora32-v1\firmware.elf
 Checking size .pio\build\ttgo-lora32-v1\firmware.elf
 Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
-RAM:   [=         ]  12.4% (used 40708 bytes from 327680 bytes)
-Flash: [====      ]  35.5% (used 1187021 bytes from 3342336 bytes)
+RAM:   [=         ]  12.4% (used 40648 bytes from 327680 bytes)
+Flash: [====      ]  35.5% (used 1185585 bytes from 3342336 bytes)
 Configuring upload protocol...
 AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
 CURRENT: upload_protocol = esptool
 Looking for upload port...
 Using manually specified: COM12
 Uploading .pio\build\ttgo-lora32-v1\firmware.bin
-esptool.py v4.2.1
+esptool.py v4.5.1
 Serial port COM12
-Connecting.....
-Chip is ESP32-D0WDQ6-V3 (revision 3)
+Connecting..........
+Chip is ESP32-D0WDQ6-V3 (revision v3.0)
 Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
 Crystal is 26MHz
 MAC: 58:bf:25:05:56:c4
@@ -71,71 +71,71 @@ Configuring flash size...
 Flash will be erased from 0x00001000 to 0x00006fff...
 Flash will be erased from 0x00008000 to 0x00008fff...
 Flash will be erased from 0x0000e000 to 0x0000ffff...
-Flash will be erased from 0x00010000 to 0x00133fff...
-Compressed 23568 bytes to 14977...
+Flash will be erased from 0x00010000 to 0x00132fff...
+Compressed 22912 bytes to 14928...
 Writing at 0x00001000... (100 %)
-Wrote 23568 bytes (14977 compressed) at 0x00001000 in 0.8 seconds (effective 248.0 kbit/s)...
+Wrote 22912 bytes (14928 compressed) at 0x00001000 in 0.8 seconds (effective 240.7 kbit/s)...
 Hash of data verified.
 Compressed 3072 bytes to 136...
 Writing at 0x00008000... (100 %)
-Wrote 3072 bytes (136 compressed) at 0x00008000 in 0.1 seconds (effective 349.2 kbit/s)...
+Wrote 3072 bytes (136 compressed) at 0x00008000 in 0.1 seconds (effective 341.0 kbit/s)...
 Hash of data verified.
 Compressed 8192 bytes to 31...
 Writing at 0x0000e000... (100 %)
-Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 473.7 kbit/s)...
+Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 479.5 kbit/s)...
 Hash of data verified.
-Compressed 1193312 bytes to 698501...
+Compressed 1191888 bytes to 701038...
 Writing at 0x00010000... (2 %)
-Writing at 0x0001c731... (4 %)
-Writing at 0x00029ab3... (6 %)
-Writing at 0x00035198... (9 %)
-Writing at 0x000415fd... (11 %)
-Writing at 0x000485f7... (13 %)
-Writing at 0x00050b1d... (16 %)
-Writing at 0x0005ae83... (18 %)
-Writing at 0x00063499... (20 %)
-Writing at 0x00069a06... (23 %)
-Writing at 0x0006f839... (25 %)
-Writing at 0x00075e1c... (27 %)
-Writing at 0x0007c0dd... (30 %)
-Writing at 0x00082532... (32 %)
-Writing at 0x000882ad... (34 %)
-Writing at 0x0008d947... (37 %)
-Writing at 0x0009328a... (39 %)
-Writing at 0x00098b20... (41 %)
-Writing at 0x0009e4f7... (44 %)
-Writing at 0x000a42f1... (46 %)
-Writing at 0x000a9c9f... (48 %)
-Writing at 0x000af82f... (51 %)
-Writing at 0x000b5d47... (53 %)
-Writing at 0x000bbc09... (55 %)
-Writing at 0x000c1603... (58 %)
-Writing at 0x000c6c8d... (60 %)
-Writing at 0x000cc4bb... (62 %)
-Writing at 0x000d1638... (65 %)
-Writing at 0x000d6ad0... (67 %)
-Writing at 0x000dbd90... (69 %)
-Writing at 0x000e146a... (72 %)
-Writing at 0x000e6d0e... (74 %)
-Writing at 0x000ec910... (76 %)
-Writing at 0x000f23d9... (79 %)
-Writing at 0x000f846a... (81 %)
-Writing at 0x000fef3a... (83 %)
-Writing at 0x0010729b... (86 %)
-Writing at 0x00110584... (88 %)
-Writing at 0x00116d97... (90 %)
-Writing at 0x0011f0c2... (93 %)
-Writing at 0x00124956... (95 %)
-Writing at 0x0012a5fd... (97 %)
-Writing at 0x0012fbb2... (100 %)
-Wrote 1193312 bytes (698501 compressed) at 0x00010000 in 17.1 seconds (effective 558.9 kbit/s)...
+Writing at 0x0001c5d6... (4 %)
+Writing at 0x00028ab7... (6 %)
+Writing at 0x00032e9a... (9 %)
+Writing at 0x00040bfa... (11 %)
+Writing at 0x000472b0... (13 %)
+Writing at 0x000501ce... (16 %)
+Writing at 0x0005a18c... (18 %)
+Writing at 0x00061dfb... (20 %)
+Writing at 0x00068de6... (23 %)
+Writing at 0x0006ef3a... (25 %)
+Writing at 0x00075488... (27 %)
+Writing at 0x0007b90c... (30 %)
+Writing at 0x00081c84... (32 %)
+Writing at 0x00087ada... (34 %)
+Writing at 0x0008d142... (37 %)
+Writing at 0x00092bd5... (39 %)
+Writing at 0x00098335... (41 %)
+Writing at 0x0009dcde... (44 %)
+Writing at 0x000a39b8... (46 %)
+Writing at 0x000a94db... (48 %)
+Writing at 0x000af02d... (51 %)
+Writing at 0x000b4b96... (53 %)
+Writing at 0x000bb4b9... (55 %)
+Writing at 0x000c0df1... (58 %)
+Writing at 0x000c650b... (60 %)
+Writing at 0x000cbc03... (62 %)
+Writing at 0x000d0f26... (65 %)
+Writing at 0x000d6381... (67 %)
+Writing at 0x000db60d... (69 %)
+Writing at 0x000e0cfe... (72 %)
+Writing at 0x000e64b5... (74 %)
+Writing at 0x000ebf9a... (76 %)
+Writing at 0x000f1c77... (79 %)
+Writing at 0x000f779d... (81 %)
+Writing at 0x000fe67b... (83 %)
+Writing at 0x00104b74... (86 %)
+Writing at 0x0010f243... (88 %)
+Writing at 0x0011647e... (90 %)
+Writing at 0x0011dc50... (93 %)
+Writing at 0x00123544... (95 %)
+Writing at 0x00128fd1... (97 %)
+Writing at 0x0012e87d... (100 %)
+Wrote 1191888 bytes (701038 compressed) at 0x00010000 in 17.3 seconds (effective 550.9 kbit/s)...
 Hash of data verified.
 
 Leaving...
 Hard resetting via RTS pin...
-========================= [SUCCESS] Took 53.99 seconds =========================
+========================= [SUCCESS] Took 81.49 seconds =========================
 
 Environment     Status    Duration
 --------------  --------  ------------
-ttgo-lora32-v1  SUCCESS   00:00:53.987
-========================= 1 succeeded in 00:00:53.987 =========================
+ttgo-lora32-v1  SUCCESS   00:01:21.491
+========================= 1 succeeded in 00:01:21.491 =========================

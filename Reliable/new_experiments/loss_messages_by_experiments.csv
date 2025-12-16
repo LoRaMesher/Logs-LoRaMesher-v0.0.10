@@ -1,5 +1,5 @@
-Configuration,n,Packet Delivery Ratio_Mean,Packet Delivery Ratio_SD,Packet Delivery Ratio_CI_Lower,Packet Delivery Ratio_CI_Upper,Packet Delivery Ratio_Median,Packet Delivery Ratio_Values,Packet Loss_Mean,Packet Loss_SD,Packet Loss_CI_Lower,Packet Loss_CI_Upper,Packet Loss_Median,Packet Loss_Values
+Configuration,n,Message Delivery Ratio_Mean,Message Delivery Ratio_SD,Message Delivery Ratio_CI_Lower,Message Delivery Ratio_CI_Upper,Message Delivery Ratio_Median,Message Delivery Ratio_Values,Message Loss_Mean,Message Loss_SD,Message Loss_CI_Lower,Message Loss_CI_Upper,Message Loss_Median,Message Loss_Values
 1,5,99.97,0.02738612787525675,99.93599563096708,100.00400436903291,99.95,99.95;100.0;99.95;99.95;100.0,0.030000000000000006,0.027386127875258306,-0.004004369032912847,0.06400436903291286,0.05,0.05;0.0;0.05;0.05;0.0
 2,5,96.9,2.0432816741702546,94.36293070699328,99.43706929300673,96.5,96.5;100.0;96.0;97.5;94.5,3.1,2.043281674170255,0.5629307069932756,5.637069293006725,3.5000000000000004,3.5000000000000004;0.0;4.0;2.5;5.5
 3,5,100.0,0.0,100.0,100.0,100.0,100.0;100.0;100.0;100.0;100.0,0.0,0.0,0.0,0.0,0.0,0.0;0.0;0.0;0.0;0.0
-4,5,100.0,0.0,100.0,100.0,100.0,100.0;100.0;100.0;100.0;100.0,0.0,0.0,0.0,0.0,0.0,0.0;0.0;0.0;0.0;0.0
+4,5,89.0,7.416198487095663,79.79157333504007,98.20842666495993,90.0,85.0;90.0;80.0;90.0;100.0,11.0,7.416198487095663,1.7915733350400753,20.208426664959923,10.0,15.0;10.0;20.0;10.0;0.0

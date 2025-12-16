@@ -30,16 +30,16 @@ Dependency Graph
 |-- TinyGPSPlus @ 1.1.0
 |-- AXP202X_Library @ 1.1.3
 |-- EspSoftwareSerial @ 8.2.0
-|-- LoRaMesher @ 0.0.10+sha.02e122a
+|-- LoRaMesher @ 0.0.11
 |-- Adafruit SSD1306 @ 2.5.15
 |-- Adafruit GFX Library @ 1.12.3
 |-- OneWire @ 2.3.8
 |-- ArduinoJson @ 6.21.4
 |-- ghostl @ 1.0.1
-|-- U8g2 @ 2.36.14+sha.b744b2b
+|-- U8g2 @ 2.36.15+sha.d365ab5
 |-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
 |-- SparkFun u-blox Arduino Library @ 1.8.11+sha.1e70755
-|-- XPowersLib @ 0.3.1+sha.94e9f40
+|-- XPowersLib @ 0.3.1+sha.85213b2
 |-- BluetoothSerial @ 2.0.0
 |-- WiFi @ 2.0.0
 Building in release mode
@@ -82,16 +82,16 @@ Linking .pio\build\ttgo-t-beam\firmware.elf
 Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
 Checking size .pio\build\ttgo-t-beam\firmware.elf
 Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
-RAM:   [          ]   3.1% (used 40848 bytes from 1310720 bytes)
-Flash: [====      ]  36.2% (used 1210581 bytes from 3342336 bytes)
+RAM:   [          ]   3.1% (used 41192 bytes from 1310720 bytes)
+Flash: [====      ]  37.9% (used 1265793 bytes from 3342336 bytes)
 Building .pio\build\ttgo-t-beam\firmware.bin
 esptool.py v4.5.1
 Creating esp32 image...
 Merged 26 ELF sections
 Successfully created esp32 image.
-======================== [SUCCESS] Took 102.37 seconds ========================
+========================= [SUCCESS] Took 85.15 seconds =========================
 
 Environment    Status    Duration
 -------------  --------  ------------
-ttgo-t-beam    SUCCESS   00:01:42.374
-========================= 1 succeeded in 00:01:42.374 =========================
+ttgo-t-beam    SUCCESS   00:01:25.153
+========================= 1 succeeded in 00:01:25.153 =========================

@@ -1,6 +1,6 @@
 ======================================================================
 STATISTICAL SUMMARY - EXPERIMENTAL RESULTS
-Generated: 2025-10-28 11:41:09
+Generated: 2025-12-09 12:28:43
 ======================================================================
 
 
@@ -8,7 +8,7 @@ Configuration: 1
 Sample Size: n = 5
 ----------------------------------------------------------------------
 
-  Packet Delivery Ratio:
+  Message Delivery Ratio:
     Mean:           99.9700%
     Median:         99.9500%
     SD:             0.0274%
@@ -18,7 +18,7 @@ Sample Size: n = 5
     Individual values: [99.95, 100.00, 99.95, 99.95, 100.00]%
     Range:          [99.9500, 100.0000]%
 
-  Packet Loss:
+  Message Loss:
     Mean:           0.0300%
     Median:         0.0500%
     SD:             0.0274%
@@ -33,7 +33,7 @@ Configuration: 2
 Sample Size: n = 5
 ----------------------------------------------------------------------
 
-  Packet Delivery Ratio:
+  Message Delivery Ratio:
     Mean:           96.9000%
     Median:         96.5000%
     SD:             2.0433%
@@ -43,7 +43,7 @@ Sample Size: n = 5
     Individual values: [96.50, 100.00, 96.00, 97.50, 94.50]%
     Range:          [94.5000, 100.0000]%
 
-  Packet Loss:
+  Message Loss:
     Mean:           3.1000%
     Median:         3.5000%
     SD:             2.0433%
@@ -58,7 +58,7 @@ Configuration: 3
 Sample Size: n = 5
 ----------------------------------------------------------------------
 
-  Packet Delivery Ratio:
+  Message Delivery Ratio:
     Mean:           100.0000%
     Median:         100.0000%
     SD:             0.0000%
@@ -68,7 +68,7 @@ Sample Size: n = 5
     Individual values: [100.00, 100.00, 100.00, 100.00, 100.00]%
     Range:          [100.0000, 100.0000]%
 
-  Packet Loss:
+  Message Loss:
     Mean:           0.0000%
     Median:         0.0000%
     SD:             0.0000%
@@ -83,25 +83,25 @@ Configuration: 4
 Sample Size: n = 5
 ----------------------------------------------------------------------
 
-  Packet Delivery Ratio:
-    Mean:           100.0000%
-    Median:         100.0000%
-    SD:             0.0000%
-    SE:             0.0%
-    95% CI:         [100.0000, 100.0000]%
-    CI Width:       0.0000%
-    Individual values: [100.00, 100.00, 100.00, 100.00, 100.00]%
-    Range:          [100.0000, 100.0000]%
+  Message Delivery Ratio:
+    Mean:           89.0000%
+    Median:         90.0000%
+    SD:             7.4162%
+    SE:             3.3166247903554%
+    95% CI:         [79.7916, 98.2084]%
+    CI Width:       18.4169%
+    Individual values: [85.00, 90.00, 80.00, 90.00, 100.00]%
+    Range:          [80.0000, 100.0000]%
 
-  Packet Loss:
-    Mean:           0.0000%
-    Median:         0.0000%
-    SD:             0.0000%
-    SE:             0.0%
-    95% CI:         [0.0000, 0.0000]%
-    CI Width:       0.0000%
-    Individual values: [0.00, 0.00, 0.00, 0.00, 0.00]%
-    Range:          [0.0000, 0.0000]%
+  Message Loss:
+    Mean:           11.0000%
+    Median:         10.0000%
+    SD:             7.4162%
+    SE:             3.3166247903554%
+    95% CI:         [1.7916, 20.2084]%
+    CI Width:       18.4169%
+    Individual values: [15.00, 10.00, 20.00, 10.00, 0.00]%
+    Range:          [0.0000, 20.0000]%
 
 ======================================================================
 END OF SUMMARY

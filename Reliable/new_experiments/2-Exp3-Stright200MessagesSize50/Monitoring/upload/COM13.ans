@@ -33,24 +33,24 @@ Dependency Graph
 |-- TinyGPSPlus @ 1.1.0
 |-- AXP202X_Library @ 1.1.3
 |-- EspSoftwareSerial @ 8.2.0
-|-- LoRaMesher @ 0.0.10+sha.67c19f8
+|-- LoRaMesher @ 0.0.11
 |-- Adafruit SSD1306 @ 2.5.15
 |-- Adafruit GFX Library @ 1.12.3
 |-- OneWire @ 2.3.8
 |-- ArduinoJson @ 6.21.4
 |-- ghostl @ 1.0.1
-|-- U8g2 @ 2.36.12+sha.b5628c5
+|-- U8g2 @ 2.36.15+sha.d365ab5
 |-- SparkFun Ublox Arduino Library @ 1.7.2+sha.dbf4658
 |-- SparkFun u-blox Arduino Library @ 1.8.11+sha.1e70755
-|-- XPowersLib @ 0.3.0+sha.02dcbb8
+|-- XPowersLib @ 0.3.1+sha.85213b2
 |-- BluetoothSerial @ 2.0.0
 |-- WiFi @ 2.0.0
 Building in release mode
 Retrieving maximum program size .pio\build\ttgo-t-beam\firmware.elf
 Checking size .pio\build\ttgo-t-beam\firmware.elf
 Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
-RAM:   [          ]   3.1% (used 41252 bytes from 1310720 bytes)
-Flash: [====      ]  37.8% (used 1263165 bytes from 3342336 bytes)
+RAM:   [          ]   3.1% (used 41192 bytes from 1310720 bytes)
+Flash: [====      ]  37.9% (used 1265789 bytes from 3342336 bytes)
 Configuring upload protocol...
 AVAILABLE: cmsis-dap, esp-bridge, esp-prog, espota, esptool, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa
 CURRENT: upload_protocol = esptool
@@ -73,73 +73,73 @@ Configuring flash size...
 Flash will be erased from 0x00001000 to 0x00006fff...
 Flash will be erased from 0x00008000 to 0x00008fff...
 Flash will be erased from 0x0000e000 to 0x0000ffff...
-Flash will be erased from 0x00010000 to 0x00145fff...
-Compressed 24096 bytes to 15153...
+Flash will be erased from 0x00010000 to 0x00146fff...
+Compressed 23424 bytes to 15104...
 Writing at 0x00001000... (100 %)
-Wrote 24096 bytes (15153 compressed) at 0x00001000 in 0.8 seconds (effective 249.4 kbit/s)...
+Wrote 23424 bytes (15104 compressed) at 0x00001000 in 0.8 seconds (effective 241.4 kbit/s)...
 Hash of data verified.
 Compressed 3072 bytes to 136...
 Writing at 0x00008000... (100 %)
-Wrote 3072 bytes (136 compressed) at 0x00008000 in 0.1 seconds (effective 312.0 kbit/s)...
+Wrote 3072 bytes (136 compressed) at 0x00008000 in 0.1 seconds (effective 319.4 kbit/s)...
 Hash of data verified.
 Compressed 8192 bytes to 31...
 Writing at 0x0000e000... (100 %)
-Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 452.6 kbit/s)...
+Wrote 8192 bytes (31 compressed) at 0x0000e000 in 0.1 seconds (effective 442.7 kbit/s)...
 Hash of data verified.
-Compressed 1269456 bytes to 722926...
+Compressed 1272080 bytes to 727534...
 Writing at 0x00010000... (2 %)
-Writing at 0x0001cf23... (4 %)
-Writing at 0x0002a464... (6 %)
-Writing at 0x0003594b... (8 %)
-Writing at 0x00041549... (11 %)
-Writing at 0x0004a947... (13 %)
-Writing at 0x00052dfc... (15 %)
-Writing at 0x0005b5f4... (17 %)
-Writing at 0x000658cb... (20 %)
-Writing at 0x0006e1af... (22 %)
-Writing at 0x0007494b... (24 %)
-Writing at 0x0007ac8e... (26 %)
-Writing at 0x00081517... (28 %)
-Writing at 0x00087b15... (31 %)
-Writing at 0x0008df2b... (33 %)
-Writing at 0x00093cf0... (35 %)
-Writing at 0x0009979b... (37 %)
-Writing at 0x0009f59f... (40 %)
-Writing at 0x000a5189... (42 %)
-Writing at 0x000aaf3c... (44 %)
-Writing at 0x000b10fb... (46 %)
-Writing at 0x000b6d75... (48 %)
-Writing at 0x000bcd13... (51 %)
-Writing at 0x000c2ac4... (53 %)
-Writing at 0x000c9656... (55 %)
-Writing at 0x000cf29d... (57 %)
-Writing at 0x000d4bc0... (60 %)
-Writing at 0x000da526... (62 %)
-Writing at 0x000dfa59... (64 %)
-Writing at 0x000e4de6... (66 %)
-Writing at 0x000ea1bc... (68 %)
-Writing at 0x000ef839... (71 %)
-Writing at 0x000f4ec1... (73 %)
-Writing at 0x000fa727... (75 %)
-Writing at 0x001006c8... (77 %)
-Writing at 0x001062b3... (80 %)
-Writing at 0x0010d700... (82 %)
-Writing at 0x00113500... (84 %)
-Writing at 0x0011c832... (86 %)
-Writing at 0x00125a1f... (88 %)
-Writing at 0x0012e9e5... (91 %)
-Writing at 0x00134386... (93 %)
-Writing at 0x00139d5e... (95 %)
-Writing at 0x0013fbb1... (97 %)
-Writing at 0x001450d7... (100 %)
-Wrote 1269456 bytes (722926 compressed) at 0x00010000 in 16.9 seconds (effective 600.0 kbit/s)...
+Writing at 0x0001c300... (4 %)
+Writing at 0x00029268... (6 %)
+Writing at 0x000345aa... (8 %)
+Writing at 0x00040e7e... (11 %)
+Writing at 0x0004a1a4... (13 %)
+Writing at 0x000521ad... (15 %)
+Writing at 0x0005aad6... (17 %)
+Writing at 0x00064ee0... (20 %)
+Writing at 0x0006dbc8... (22 %)
+Writing at 0x00074358... (24 %)
+Writing at 0x0007a425... (26 %)
+Writing at 0x00080b6a... (28 %)
+Writing at 0x000873cd... (31 %)
+Writing at 0x0008d56f... (33 %)
+Writing at 0x00093710... (35 %)
+Writing at 0x000990e8... (37 %)
+Writing at 0x0009f110... (40 %)
+Writing at 0x000a4bf4... (42 %)
+Writing at 0x000aa6dc... (44 %)
+Writing at 0x000b0845... (46 %)
+Writing at 0x000b67be... (48 %)
+Writing at 0x000bc67e... (51 %)
+Writing at 0x000c2417... (53 %)
+Writing at 0x000c8de1... (55 %)
+Writing at 0x000cedaf... (57 %)
+Writing at 0x000d4665... (60 %)
+Writing at 0x000da0e3... (62 %)
+Writing at 0x000df738... (64 %)
+Writing at 0x000e4a88... (66 %)
+Writing at 0x000e9eb1... (68 %)
+Writing at 0x000ef2c6... (71 %)
+Writing at 0x000f48d4... (73 %)
+Writing at 0x000fa272... (75 %)
+Writing at 0x000fff70... (77 %)
+Writing at 0x001059d6... (80 %)
+Writing at 0x0010c9cf... (82 %)
+Writing at 0x00112ff6... (84 %)
+Writing at 0x0011b57d... (86 %)
+Writing at 0x00125052... (88 %)
+Writing at 0x0012d596... (91 %)
+Writing at 0x0013342c... (93 %)
+Writing at 0x00138eba... (95 %)
+Writing at 0x0013ef8c... (97 %)
+Writing at 0x001441f1... (100 %)
+Wrote 1272080 bytes (727534 compressed) at 0x00010000 in 17.1 seconds (effective 596.7 kbit/s)...
 Hash of data verified.
 
 Leaving...
 Hard resetting via RTS pin...
-========================= [SUCCESS] Took 58.24 seconds =========================
+========================= [SUCCESS] Took 79.66 seconds =========================
 
 Environment    Status    Duration
 -------------  --------  ------------
-ttgo-t-beam    SUCCESS   00:00:58.242
-========================= 1 succeeded in 00:00:58.242 =========================
+ttgo-t-beam    SUCCESS   00:01:19.658
+========================= 1 succeeded in 00:01:19.658 =========================
